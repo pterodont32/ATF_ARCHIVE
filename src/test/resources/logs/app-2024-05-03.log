@@ -1,0 +1,39 @@
+[INFO ] 2024-05-03 11:02:10.893 [main] ConfigFileReader - Response Body for PUT Request: Successful operation!
+[INFO ] 2024-05-03 11:02:10.926 [main] ConfigFileReader - Response Body+: {"id":"1234","name":"vasie++","age":2}
+[INFO ] 2024-05-03 11:03:13.793 [main] ConfigFileReader - Response Body for PUT Request: Successful operation!
+[INFO ] 2024-05-03 11:03:13.821 [main] ConfigFileReader - Response Body+: {"id":"1234","name":"vasie++","age":2}
+[INFO ] 2024-05-03 11:04:15.351 [main] GeneralPage - Response: Successful operation!
+[INFO ] 2024-05-03 11:04:15.619 [main] ConfigFileReader - Response Body for PUT Request: Successful operation!
+[INFO ] 2024-05-03 11:04:15.635 [main] ConfigFileReader - Response Body+: {"id":"1234","name":"vasie++","age":2}
+[INFO ] 2024-05-03 11:05:11.186 [main] GeneralPage - Response: Successful operation!
+[INFO ] 2024-05-03 11:05:11.434 [main] ConfigFileReader - Response Body for PUT Request: Successful operation!
+[INFO ] 2024-05-03 11:05:11.449 [main] ConfigFileReader - Response Body+: {"id":"1234","name":"vasie++","age":2}
+[INFO ] 2024-05-03 11:05:47.434 [main] GeneralPage - Response: Successful operation!
+[INFO ] 2024-05-03 11:05:47.550 [main] ConfigFileReader - Response Body: Operation failed! User with id '2222' doesn't exist!
+[INFO ] 2024-05-03 11:05:47.724 [main] ConfigFileReader - Response Body for PUT Request: Successful operation!
+[INFO ] 2024-05-03 11:05:47.740 [main] ConfigFileReader - Response Body+: {"id":"1234","name":"vasie++","age":2}
+[INFO ] 2024-05-03 11:14:04.148 [main] GeneralPage - Response: Successful operation!
+[INFO ] 2024-05-03 11:14:04.302 [main] ConfigFileReader - Response Body: {"timestamp":"2024-05-03T08:14:04.274+00:00","status":404,"error":"Not Found","path":"/userID321"}
+[INFO ] 2024-05-03 11:14:57.001 [main] GeneralPage - Response: {
+    "timestamp": "2024-05-03T08:14:56.938+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/user/"
+}
+[INFO ] 2024-05-03 11:15:28.724 [main] GeneralPage - Response: Successful operation!
+[INFO ] 2024-05-03 11:15:28.850 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-03 11:42:24.533 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-03 11:42:24.580 [main] ConfigFileReader - Response Body+: {"id":"1234","name":"john","age":33}
+[INFO ] 2024-05-03 11:43:58.693 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-03 11:43:58.708 [main] ConfigFileReader - Response Body+: {"id":"1234","name":"john","age":33}
+[INFO ] 2024-05-03 11:45:47.958 [main] GeneralPage - Response: Successful operation!
+[INFO ] 2024-05-03 11:45:48.038 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-03 11:45:48.147 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-03 11:45:48.147 [main] ConfigFileReader - Response Body+: {"id":"1234","name":"john","age":33}
+[INFO ] 2024-05-03 13:03:10.954 [main] GeneralPage - Response: Successful operation!
+[INFO ] 2024-05-03 13:03:11.033 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-03 13:05:22.489 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-03 13:05:22.756 [main] GeneralPage - Response: Successful operation!
+[INFO ] 2024-05-03 13:05:22.819 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-03 13:27:42.321 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-03 13:27:42.655 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}

@@ -1,0 +1,74 @@
+[INFO ] 2024-05-07 11:28:23.408 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 11:30:07.284 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 11:49:25.486 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 11:49:57.957 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 11:50:50.430 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 11:52:01.015 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 17:22:39.048 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 17:22:39.498 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-07 17:22:39.771 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-07 17:22:39.784 [main] ConfigFileReader - Response Body+: {"id":"607-18-0313","name":"john","age":33}
+[INFO ] 2024-05-07 17:22:55.307 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 17:22:55.695 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-07 17:22:55.966 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-07 17:22:55.975 [main] ConfigFileReader - Response Body+: {"id":"211-30-8698","name":"john","age":33}
+[INFO ] 2024-05-07 17:24:53.445 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 17:24:53.789 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-07 17:24:54.057 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-07 17:24:54.067 [main] ConfigFileReader - Response Body+: {"id":"364-72-7662","name":"john","age":33}
+[INFO ] 2024-05-07 17:26:05.559 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 17:26:05.915 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-07 17:26:06.217 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-07 17:26:06.225 [main] ConfigFileReader - Response Body+: {"id":"877-49-9024","name":"john","age":33}
+[INFO ] 2024-05-07 17:27:15.612 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 17:27:15.930 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-07 17:27:16.189 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-07 17:27:16.198 [main] ConfigFileReader - Response Body+: {"id":"655-04-9192","name":"john","age":33}
+[INFO ] 2024-05-07 17:33:06.104 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 17:33:06.404 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-07 17:33:06.634 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-07 17:33:06.645 [main] ConfigFileReader - Response Body+: {"id":"594-76-6302","name":"john","age":33}
+[INFO ] 2024-05-07 17:33:37.047 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 17:33:37.352 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-07 17:33:37.551 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-07 17:33:37.561 [main] ConfigFileReader - Response Body+: {"id":"431-71-2643","name":"john","age":33}
+[INFO ] 2024-05-07 17:38:46.323 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 17:38:46.699 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-07 17:38:46.968 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-07 17:38:46.977 [main] ConfigFileReader - Response Body+: {"id":"813-82-9379","name":"john","age":33}
+[INFO ] 2024-05-07 17:40:19.861 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 17:40:20.178 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-07 17:40:20.426 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-07 17:40:20.437 [main] ConfigFileReader - Response Body+: {"id":"440-50-9522","name":"john","age":33}
+[INFO ] 2024-05-07 17:44:04.819 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 17:44:05.165 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-07 17:44:05.417 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-07 17:44:05.427 [main] ConfigFileReader - Response Body+: {"id":"665-42-5471","name":"john","age":33}
+[INFO ] 2024-05-07 17:45:37.505 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 17:45:37.840 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-07 17:45:38.074 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-07 17:45:38.085 [main] ConfigFileReader - Response Body+: {"id":"763-10-8999","name":"john","age":33}
+[INFO ] 2024-05-07 17:48:31.175 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 17:48:31.487 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-07 17:48:31.736 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-07 17:48:31.746 [main] ConfigFileReader - Response Body+: {"id":"082-46-7819","name":"john","age":33}
+[INFO ] 2024-05-07 17:50:29.724 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 17:50:30.055 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-07 17:50:30.291 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-07 17:50:30.304 [main] ConfigFileReader - Response Body+: {"id":"159-77-3598","name":"john","age":33}
+[INFO ] 2024-05-07 17:53:24.470 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 17:53:24.778 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-07 17:53:25.005 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-07 17:53:25.015 [main] ConfigFileReader - Response Body+: {"id":"403-32-1233","name":"john","age":33}
+[INFO ] 2024-05-07 17:57:44.335 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 17:57:44.646 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-07 17:57:44.858 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-07 17:57:44.866 [main] ConfigFileReader - Response Body+: {"id":"330-44-9399","name":"john","age":33}
+[INFO ] 2024-05-07 18:04:04.024 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 18:04:04.048 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-07 18:04:04.451 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-07 18:04:04.493 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-07 18:04:04.801 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-07 18:04:04.813 [main] ConfigFileReader - Response Body+: {"id":"031-19-5738","name":"john","age":33}
+[INFO ] 2024-05-07 18:04:04.849 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-07 18:04:04.862 [main] ConfigFileReader - Response Body+: {"id":"085-78-2710","name":"john","age":33}

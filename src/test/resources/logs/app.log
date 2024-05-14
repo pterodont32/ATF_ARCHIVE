@@ -1,0 +1,4 @@
+[INFO ] 2024-05-08 11:28:10.146 [main] ConfigFileReader - API base URL  is available
+[INFO ] 2024-05-08 11:28:10.523 [main] ConfigFileReader - Response Body: {"id":"ID321","name":"vasie","age":22}
+[INFO ] 2024-05-08 11:28:10.783 [main] GeneralPage - Response after modify: Successful operation!
+[INFO ] 2024-05-08 11:28:10.794 [main] ConfigFileReader - Response Body+: {"id":"878-60-2944","name":"john","age":33}
