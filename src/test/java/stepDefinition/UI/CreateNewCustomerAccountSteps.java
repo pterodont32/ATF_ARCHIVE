@@ -11,14 +11,14 @@ import org.openqa.selenium.WebDriver;
 import pageObjects.CreateNewCustomerAccountPage;
 import pageObjects.GeneralPage;
 import utils.DriverManager;
-import utils.ErrorMessages;
+import utils.Messages;
 
 import java.util.List;
 import java.util.Map;
 
-public class CreateNewCustomerAccountSteps {
+public class CreateNewCustomerAccountSteps extends DriverManager{
 
-    WebDriver driver = DriverManager.getDriver();
+
     CreateNewCustomerAccountPage createNewCustomerAccountPage = new CreateNewCustomerAccountPage(driver);
     private static final Logger log = LogManager.getLogger(GeneralPage.class);
 
@@ -42,17 +42,17 @@ public class CreateNewCustomerAccountSteps {
 
     @Then("user should see an error message indicating the username is already taken")
     public void userShouldSeeAnErrorMessageIndicatingTheUsernameIsAlreadyTaken() {
-        Assertions.assertThat(createNewCustomerAccountPage.getEmailIsTakenError()).isEqualTo(ErrorMessages.EMAIL_ALREADY_EXISTS.getMessage());
+        Assertions.assertThat(createNewCustomerAccountPage.getEmailIsTakenError()).isEqualTo(Messages.EMAIL_ALREADY_EXISTS.getMessage());
     }
 
     @Then("user should see an error message indicating the password is too weak")
     public void userShouldSeeAnErrorMessageIndicatingThePasswordIsTooWeak() {
-        Assertions.assertThat(createNewCustomerAccountPage.getPassword_Weak()).isEqualTo(ErrorMessages.PASSWORD_WEAK.getMessage());
+        Assertions.assertThat(createNewCustomerAccountPage.getPassword_Weak()).isEqualTo(Messages.PASSWORD_WEAK.getMessage());
     }
 
     @Then("user should see an error message indicating  that password are not the same")
     public void userShouldSeeAnErrorMessageIndicatingThatPasswordAreNotTheSame() {
-        Assertions.assertThat(createNewCustomerAccountPage.getPassword_confirmation_error()).isEqualTo(ErrorMessages.PASSWORD_CONFIRMATION_ERROR.getMessage());
+        Assertions.assertThat(createNewCustomerAccountPage.getPassword_confirmation_error()).isEqualTo(Messages.PASSWORD_CONFIRMATION_ERROR.getMessage());
     }
 }
 

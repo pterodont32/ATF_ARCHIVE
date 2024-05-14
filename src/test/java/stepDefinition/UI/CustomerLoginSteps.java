@@ -3,7 +3,6 @@ package stepDefinition.UI;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.assertj.core.api.Assertions;
@@ -11,13 +10,12 @@ import org.openqa.selenium.WebDriver;
 import pageObjects.CustomerLoginPage;
 import pageObjects.GeneralPage;
 import utils.DriverManager;
-import utils.ErrorMessages;
+import utils.Messages;
 
 import static utils.PropertyUtils.getPropertyFromConfigFile;
 
-public class CustomerLoginSteps {
+public class CustomerLoginSteps  extends  DriverManager{
 
-    WebDriver driver = DriverManager.getDriver();
     CustomerLoginPage customerLoginPage = new CustomerLoginPage(driver);
     private static final Logger log = LogManager.getLogger(GeneralPage.class);
 
@@ -32,7 +30,7 @@ public class CustomerLoginSteps {
         customerLoginPage.enterPassword(password);
     }
 
-    @And("user click the login button")
+    @And("user clicks the login button")
     public void user_click_the_login_button() {
         customerLoginPage.clickLogInButton();
     }
@@ -47,7 +45,7 @@ public class CustomerLoginSteps {
     public void userShouldSeeAAnErrorMessage() throws InterruptedException {
         //TODO   change to another waiters
         Thread.sleep(2000);
-        Assertions.assertThat(customerLoginPage.getErrorText()).isEqualTo(ErrorMessages.FAIL_LOG_IN.getMessage());
+        Assertions.assertThat(customerLoginPage.getErrorText()).isEqualTo(Messages.FAIL_LOG_IN.getMessage());
     }
 
 }

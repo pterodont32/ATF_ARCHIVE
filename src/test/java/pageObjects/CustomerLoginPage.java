@@ -4,12 +4,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import utils.DriverManager;
 
-public class CustomerLoginPage {
-    WebDriver driver;
+public class CustomerLoginPage  extends DriverManager {
+//    WebDriver driver;
 
     public CustomerLoginPage(WebDriver driver) {
-        this.driver = driver;
+//        this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 

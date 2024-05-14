@@ -3,21 +3,18 @@ package stepDefinition.UI;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.assertj.core.api.Assertions;
-import org.openqa.selenium.WebDriver;
-import pageObjects.CustomerLoginPage;
 import pageObjects.GeneralPage;
 import utils.DriverManager;
-import utils.ErrorMessages;
+import utils.Messages;
 
 import static utils.PropertyUtils.getPropertyFromConfigFile;
 
-public class GeneralPageSteps {
+public class GeneralPageSteps extends DriverManager{
 
-    WebDriver driver = DriverManager.getDriver();
+//    WebDriver driver = DriverManager.getDriver();
     private static final Logger log = LogManager.getLogger(GeneralPage.class);
     GeneralPage generalPage = new GeneralPage(driver);
 
@@ -26,7 +23,7 @@ public class GeneralPageSteps {
         driver.get(getPropertyFromConfigFile("urlmagento"));
     }
 
-    @When("user click on the Sign In button on the header")
+    @And("user click on the Sign In button on the header")
     public void userClickOnTheSignInButton() {
         generalPage.clickSignInHeader();
     }
@@ -34,8 +31,8 @@ public class GeneralPageSteps {
     @Then("user should see a welcome message with my username")
     public void userShouldSeeAWelcomeMessageWithMyUsername() throws InterruptedException {
 //TODO   change to another waiters
-        Thread.sleep(6000);
-        Assertions.assertThat(generalPage.getWelcomeText()).isEqualTo(ErrorMessages.WELCOME_TEXT.getMessage());
+        Thread.sleep(6000);  //TODO wait element until is wisibil
+        Assertions.assertThat(generalPage.getWelcomeText()).isEqualTo(Messages.WELCOME_TEXT.getMessage());
     }
 }
 

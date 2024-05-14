@@ -12,7 +12,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.assertj.core.api.Assertions;
 import pageObjects.GeneralPage;
-import utils.ErrorMessages;
+import utils.Messages;
 import utils.ScenarioContext;
 
 import static dataProviders.ConfigFileReader.logger;
@@ -92,7 +92,7 @@ public class UserApiSteps {
     public void userShouldBeDeleted() {
         String userId = scenarioContext.getContext("userId", String.class);
         Response getOneUsersResponse = UserAPIClient.getUser(userId);
-        Assertions.assertThat(getOneUsersResponse.getBody().asString()).contains(ErrorMessages.USER_IS_NOT_PRESENT.getMessage());
+        Assertions.assertThat(getOneUsersResponse.getBody().asString()).contains(Messages.USER_IS_NOT_PRESENT.getMessage());
     }
 
     @When("user send an PUT request to modify a user {string} with age {int}")

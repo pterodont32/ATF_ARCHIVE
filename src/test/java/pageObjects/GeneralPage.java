@@ -5,12 +5,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import utils.DriverManager;
 
-public class GeneralPage {
-    WebDriver driver;
+public class GeneralPage extends DriverManager {
+//    WebDriver driver;
 
     public GeneralPage(WebDriver driver) {
-        this.driver = driver;
+//        this.driver = driver;
         PageFactory.initElements(driver, this);
     }
     @FindBy(xpath = "/html/body/div[2]/header/div[1]/div/ul/li[2]/a")

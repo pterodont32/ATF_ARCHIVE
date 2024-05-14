@@ -14,10 +14,10 @@ public class Hooks {
     public void driverSetUp() {
         DriverManager.getDriver();
     }
-
+//TODO add logging
 
     @After("@UI")
-    public void tearDown(Scenario scenario) {
+    public void tearDown(Scenario scenario) throws InterruptedException {
         try {
             if (scenario.isFailed() && DriverManager.getDriver() != null) {
                 System.out.println("Scenario failed. Taking screenshot...");
@@ -29,6 +29,7 @@ public class Hooks {
             System.out.println("Failed to capture screenshot: " + e.getMessage());
         } finally { // fainaly se executot tot tip dupa try cath nui  important daca e  succes sau nu
             System.out.println("Closing browser...");
+//todo  CHANGE TO SOMETHING MORE  SMART           Thread.sleep(10000);'
             DriverManager.quitDriver();
         }
     }
@@ -44,5 +45,6 @@ public class Hooks {
         }
     }
 }
+
 
 
