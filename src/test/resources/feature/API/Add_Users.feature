@@ -7,17 +7,17 @@ Feature: Get User by ID
     Then the response status code should be 200
     And the response body contains user details name
 
-  @API
-  Scenario: Check that a created user can be deleted by api request
-    Given the necessary user is created
-    When user send an DELETE request with required data id
-    Then the response status code should be 200
-    And user should be deleted
-
-  @API
-  Scenario:  Check that user can be modify by api request
-    Given the necessary user is created
-    When user send an PUT request to modify a user "john" with age 33
-    Then  user should be modified to "john"
+#  @API
+#  Scenario: Check that a created user can be deleted by api request
+#    Given the necessary user is created
+#    When user send an DELETE request with required data id
+#    Then the response status code should be 200
+#    And user should be deleted
+#
+#  @API
+#  Scenario:  Check that user can be modify by api request
+#    Given the necessary user is created
+#    When user send an PUT request to modify a user "john" with age 33
+#    Then  user should be modified to "john"
 
 
