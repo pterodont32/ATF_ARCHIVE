@@ -1,11 +1,12 @@
 package hooks;
-
+import com.mongodb.DB;
 import io.cucumber.java.After;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import utils.DatabaseManager;
 import utils.DriverManager;
 
 public class Hooks {
@@ -29,7 +30,6 @@ public class Hooks {
             System.out.println("Failed to capture screenshot: " + e.getMessage());
         } finally { // fainaly se executot tot tip dupa try cath nui  important daca e  succes sau nu
             System.out.println("Closing browser...");
-//todo  CHANGE TO SOMETHING MORE  SMART           Thread.sleep(10000);'
             DriverManager.quitDriver();
         }
     }
@@ -44,6 +44,19 @@ public class Hooks {
             scenario.attach(screenshot, "image/png", scenario.getId());
         }
     }
+
+    @Before("@DB")
+    public void driverdbSetUp() {
+        DatabaseManager.getConnection();
+    }
+
+
+    @After("@DB")
+    public void driverdbClose() {
+        DatabaseManager.closeConnection();
+    }
+
+
 }
 
 

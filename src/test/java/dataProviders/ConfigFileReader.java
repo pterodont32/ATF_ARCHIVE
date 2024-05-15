@@ -25,3 +25,7 @@ public class ConfigFileReader {
     }
 
 }
+
+//TODO singlton
+
+// de explicat de ce sa folosit

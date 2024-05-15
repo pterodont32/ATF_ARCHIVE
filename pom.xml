@@ -157,6 +157,16 @@
             <version>${awaitility.version}</version>
             <scope>test</scope>
         </dependency>
+
+
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.3.1</version>
+        </dependency>
+
+
+
     </dependencies>
 
     <build>
@@ -176,7 +186,7 @@
                 </executions>
                 <configuration>
                     <includes>
-                        <include>**/ITRunner.java</include> <!-- Path to your Cucumber runner class -->
+                        <include>**/Runner.java</include> <!-- Path to your Cucumber runner class -->
                     </includes>
                     <skip>false</skip>
                     <systemPropertyVariables>
