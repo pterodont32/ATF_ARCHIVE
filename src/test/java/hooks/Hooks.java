@@ -1,15 +1,13 @@
 package hooks;
-import com.mongodb.DB;
-import io.cucumber.java.After;
-import io.cucumber.java.AfterStep;
-import io.cucumber.java.Before;
-import io.cucumber.java.Scenario;
+import io.cucumber.java.*;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+
 import utils.DatabaseManager;
 import utils.DriverManager;
 
 public class Hooks {
+
 
     @Before("@UI")
     public void driverSetUp() {
@@ -46,13 +44,13 @@ public class Hooks {
     }
 
     @Before("@DB")
-    public void driverdbSetUp() {
+    public void driverDbSetUp() {
         DatabaseManager.getConnection();
     }
 
 
     @After("@DB")
-    public void driverdbClose() {
+    public void driverDbClose() {
         DatabaseManager.closeConnection();
     }
 

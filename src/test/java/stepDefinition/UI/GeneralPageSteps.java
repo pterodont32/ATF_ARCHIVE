@@ -18,11 +18,12 @@ public class GeneralPageSteps extends DriverManager{
     private static final Logger log = LogManager.getLogger(GeneralPage.class);
     GeneralPage generalPage = new GeneralPage(driver);
 
+    //TODO change directly to page that is testing
     @Given("user is on the Luma  page")
     public void user_is_on_the_Luma_page() {
         driver.get(getPropertyFromConfigFile("urlmagento"));
     }
-
+//TODO delete  regarding to   earlier todo
     @And("user click on the Sign In button on the header")
     public void userClickOnTheSignInButton() {
         generalPage.clickSignInHeader();

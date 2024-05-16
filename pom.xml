@@ -31,6 +31,7 @@
         <jackson-databind.version>2.17.0</jackson-databind.version>
         <json-path.version>5.3.0</json-path.version>
         <extentreports-cucumber7-adapter.version>1.14.0</extentreports-cucumber7-adapter.version>
+        <postgresql.version>42.3.1</postgresql.version>
     </properties>
     <dependencies>
         <dependency>
@@ -157,15 +158,11 @@
             <version>${awaitility.version}</version>
             <scope>test</scope>
         </dependency>
-
-
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>42.3.1</version>
+            <version>${postgresql.version}</version>
         </dependency>
-
-
 
     </dependencies>
 
@@ -186,7 +183,7 @@
                 </executions>
                 <configuration>
                     <includes>
-                        <include>**/Runner.java</include> <!-- Path to your Cucumber runner class -->
+                        <include>**/TestRunner.java</include> <!-- Path to your Cucumber runner class -->
                     </includes>
                     <skip>false</skip>
                     <systemPropertyVariables>

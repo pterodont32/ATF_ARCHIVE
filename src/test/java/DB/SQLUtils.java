@@ -27,7 +27,6 @@ public class SQLUtils {
         }
     }
 
-
     public static void deleteAuthor(Connection connection, String name) throws SQLException {
         String sql = "DELETE FROM Authors WHERE Name = ?";
         try (PreparedStatement pstmt = connection.prepareStatement(sql)) {

@@ -7,9 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 import utils.DriverManager;
 
 public class CreateNewCustomerAccountPage  extends DriverManager {
-//    WebDriver driver;
+
     public CreateNewCustomerAccountPage(WebDriver driver) {
-//        this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 

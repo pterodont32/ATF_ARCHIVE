@@ -1,15 +1,14 @@
 package utils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import pageObjects.GeneralPage;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseManager {
-    private static final Logger log = LogManager.getLogger(GeneralPage.class);
+    private static final Logger log = LogManager.getLogger(DatabaseManager.class);
     private static Connection connection;
+
     public static Connection getConnection() {
         if (connection == null) {
             try {
@@ -20,7 +19,6 @@ public class DatabaseManager {
                 // Establish the connection
                 connection = DriverManager.getConnection(url, user, password);
             } catch (SQLException e) {
-                log.info("Failed to connect to the database", e);
                 throw new RuntimeException("Failed to connect to the database", e);
             }
         }
@@ -33,8 +31,7 @@ public class DatabaseManager {
                 connection.close();
                 connection = null;
             } catch (SQLException e) {
-                log.info("Error closing the database connection", e);
-
+                throw new RuntimeException("Error closing the database connection", e);
             }
         }
     }

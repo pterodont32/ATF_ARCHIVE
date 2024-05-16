@@ -21,6 +21,6 @@ Feature: Logging into to the Luma
     Examples:
       | email                    | password              |
       | admin@gmail.com          | Gap31s3gs3ggap        |
-#      | pterodont32@gmail.com    | pterodont32@gmail.com |
-#      | Gap31s3gs3ggap@gmail.com | Premium               |
+      | pterodont32@gmail.com    | pterodont32@gmail.com |
+      | Gap31s3gs3ggap@gmail.com | Premium               |
 

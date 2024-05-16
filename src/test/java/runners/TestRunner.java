@@ -8,9 +8,9 @@ import org.junit.runner.RunWith;
         features = "C:\\Users\\Vlungu\\IdeaProjects\\ATF\\ATF_ARCHIVE\\src\\test\\resources\\feature",
         glue = {"hooks", "stepDefinition"},
         stepNotifications = true,
-        tags = "@DB",
+        tags = "@API",
         plugin = {
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 )
-public class Runner {
+public class TestRunner {
 }

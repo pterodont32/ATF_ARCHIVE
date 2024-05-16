@@ -50,22 +50,20 @@ public class UserApiSteps {
     @Then("the response status code should be {int}")
     public void theResponseStatusCodeShouldBe(int statusCode) {
         Assertions.assertThat(response.getStatusCode()).isEqualTo(statusCode);
-
     }
 
-    @And("the response body contains user details name")
-    public void theResponseBodyContainsUserDetails() {
+
+    @And("the {string} response field has value {string}")
+    public void theResponseFieldHasValue(String field, String name) {
         String userId = scenarioContext.getContext("userId", String.class);
-        String userName = scenarioContext.getContext("userName", String.class);
         Response getOneUsersResponse = UserAPIClient.getUser(userId);
         String responseBody = getOneUsersResponse.getBody().asString();
         logger.info("Response Body: {}", responseBody);
-        Assertions.assertThat(getOneUsersResponse.getBody().asString()).contains(userName);
+        Assertions.assertThat(getOneUsersResponse.getBody().asString()).contains(field,name);
     }
 
     @Given("the necessary user is created")
     public void theNecessaryUserIsCreated() {
-
         String name = faker.name().fullName();
         int age = faker.number().numberBetween(18, 65);
         String id = faker.idNumber().valid();

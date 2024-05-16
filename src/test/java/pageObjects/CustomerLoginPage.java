@@ -7,10 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 import utils.DriverManager;
 
 public class CustomerLoginPage  extends DriverManager {
-//    WebDriver driver;
+
 
     public CustomerLoginPage(WebDriver driver) {
-//        this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 

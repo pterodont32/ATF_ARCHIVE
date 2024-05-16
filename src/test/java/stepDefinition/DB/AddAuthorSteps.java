@@ -4,22 +4,20 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
+
 import utils.DatabaseManager;
 import DB.SQLUtils;
 
 import java.sql.Connection;
 import java.sql.SQLException;
-
 import static org.junit.Assert.*;
 
 public class AddAuthorSteps {
-
     private Connection connection;
 
     @Given("user is connected to the database")
     public void i_am_connected_to_the_database() {
         connection = DatabaseManager.getConnection();
-        assertNotNull(connection);
     }
 
     @When("user add a new author with name {string} and bio {string}")

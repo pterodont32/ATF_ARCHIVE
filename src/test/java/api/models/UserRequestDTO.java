@@ -10,8 +10,8 @@ import lombok.NoArgsConstructor;
 
 @Builder // @Builder: Activează un builder pattern, facilitând instanțierea obiectelor în mod flexibil și clar.
 @Data //@Data: Este o adnotare care combină mai multe adnotări Lombok, generând metode getter și setter pentru toate proprietățile, plus toString, equals, hashCode, etc.
-@AllArgsConstructor // Generează un constructor care acceptă toți parametrii specificați în clasă.
-@NoArgsConstructor // Creează un constructor fără parametri.
+//@AllArgsConstructor // Generează un constructor care acceptă toți parametrii specificați în clasă.
+//@NoArgsConstructor // Creează un constructor fără parametri.
 public class UserRequestDTO {
 
     @JsonProperty("name")

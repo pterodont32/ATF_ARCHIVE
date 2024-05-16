@@ -4,11 +4,10 @@ import api.models.UserRequestDTO;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-
 import static utils.PropertyUtils.getPropertyFromConfigFile;
 
 public class UserAPIClient {
-
+//TODO property
     private static final String BASE_USER_URI = "/user";
 
     public static Response addNewUser(UserRequestDTO userRequestDTO) {
@@ -45,7 +44,7 @@ public class UserAPIClient {
     public static Response deleteUser(String id) {
         return RestAssured.given()
                 .contentType(ContentType.JSON)
-                .baseUri(getPropertyFromConfigFile("base_uri") + BASE_USER_URI+"/"+ id) // Updated path to include specific user
+                .baseUri(getPropertyFromConfigFile("base_uri") + BASE_USER_URI+"/"+id) // Updated path to include specific user
                 .delete();
     }
 }
