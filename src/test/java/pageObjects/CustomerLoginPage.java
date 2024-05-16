@@ -4,7 +4,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.DriverManager;
+
+import java.time.Duration;
 
 public class CustomerLoginPage  extends DriverManager {
 
@@ -46,5 +50,10 @@ public class CustomerLoginPage  extends DriverManager {
 
     public String getErrorText() {
         return errorText.getText();
+    }
+
+    public void waitForErrorTextToBeVisible() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOf(errorText));
     }
 }

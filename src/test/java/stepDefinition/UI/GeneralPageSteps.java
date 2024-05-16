@@ -21,18 +21,14 @@ public class GeneralPageSteps extends DriverManager{
     //TODO change directly to page that is testing
     @Given("user is on the Luma  page")
     public void user_is_on_the_Luma_page() {
-        driver.get(getPropertyFromConfigFile("urlmagento"));
+        driver.get(getPropertyFromConfigFile("urlsigninmagento"));
     }
-//TODO delete  regarding to   earlier todo
-    @And("user click on the Sign In button on the header")
-    public void userClickOnTheSignInButton() {
-        generalPage.clickSignInHeader();
-    }
+
 
     @Then("user should see a welcome message with my username")
     public void userShouldSeeAWelcomeMessageWithMyUsername() throws InterruptedException {
-//TODO   change to another waiters
-        Thread.sleep(6000);  //TODO wait element until is wisibil
+
+        generalPage.waitForWelcomeTextToBeVisible();
         Assertions.assertThat(generalPage.getWelcomeText()).isEqualTo(Messages.WELCOME_TEXT.getMessage());
     }
 }

@@ -43,8 +43,7 @@ public class CustomerLoginSteps  extends  DriverManager{
 
     @Then("user should see a an error message")
     public void userShouldSeeAAnErrorMessage() throws InterruptedException {
-        //TODO   change to another waiters
-        Thread.sleep(2000);
+        customerLoginPage.waitForErrorTextToBeVisible();
         Assertions.assertThat(customerLoginPage.getErrorText()).isEqualTo(Messages.FAIL_LOG_IN.getMessage());
     }
 
