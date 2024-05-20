@@ -17,15 +17,12 @@ public class ConfigFileReader {
         Properties properties = new Properties();
         try {
             properties.load(new FileInputStream(propertyFilePath));
+            logger.debug("Properties loaded successfully from {}", propertyFilePath);
         } catch (IOException e) {
             e.printStackTrace();
-           logger.info("This is an informational log message");
+            logger.error("Failed to load properties from {}: {}", propertyFilePath, e.getMessage());
         }
         return properties;
     }
 
 }
-
-//TODO singlton
-
-// de explicat de ce sa folosit

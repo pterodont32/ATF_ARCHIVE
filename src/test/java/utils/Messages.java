@@ -5,11 +5,9 @@ public enum Messages {
     FAIL_LOG_IN("The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later."),
     PASSWORD_CONFIRMATION_ERROR("Please enter the same value again."),
 
-
     //not errors
     WELCOME_TEXT("Welcome, victor victor!"),
     PASSWORD_WEAK("Weak"),
-
 
    //API MESSAGES
     USER_IS_NOT_PRESENT("doesn't exist!");

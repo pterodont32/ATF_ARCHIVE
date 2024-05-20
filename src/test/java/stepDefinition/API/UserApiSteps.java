@@ -19,7 +19,7 @@ import static dataProviders.ConfigFileReader.logger;
 import static io.restassured.RestAssured.given;
 
 public class UserApiSteps {
-    private static final Logger log = LogManager.getLogger(GeneralPage.class);
+    private static final Logger log = LogManager.getLogger(UserApiSteps.class);
     private Response response;
     private final ScenarioContext scenarioContext;
     private static final Faker faker = new Faker();
@@ -31,7 +31,7 @@ public class UserApiSteps {
     @Given("the API base URL  is available {string}")
     public void theAPIBaseURLIsAvailable(String baseURL) {
         given().when().get(baseURL).then().statusCode(200);
-        logger.info("API base URL  is available");
+        log.info("API base URL is available: {}", baseURL);
 
     }
 
@@ -45,10 +45,12 @@ public class UserApiSteps {
         response = UserAPIClient.addNewUser(user);
         scenarioContext.setContext("userId", user.getId());
         scenarioContext.setContext("userName", user.getName());
+        log.info("Sent POST request to create user: {}", user);
     }
 
     @Then("the response status code should be {int}")
     public void theResponseStatusCodeShouldBe(int statusCode) {
+        log.info("Validating response status code. Expected: {}, Actual: {}", statusCode, response.getStatusCode());
         Assertions.assertThat(response.getStatusCode()).isEqualTo(statusCode);
     }
 
@@ -58,7 +60,7 @@ public class UserApiSteps {
         String userId = scenarioContext.getContext("userId", String.class);
         Response getOneUsersResponse = UserAPIClient.getUser(userId);
         String responseBody = getOneUsersResponse.getBody().asString();
-        logger.info("Response Body: {}", responseBody);
+        log.info("Validating response field. Field: {}, Expected Value: {}, Actual Response: {}", field, name, responseBody);
         Assertions.assertThat(getOneUsersResponse.getBody().asString()).contains(field,name);
     }
 
@@ -74,6 +76,7 @@ public class UserApiSteps {
                 .build();
         response = UserAPIClient.addNewUser(user);
         scenarioContext.setContext("userId", user.getId());
+        log.info("Created necessary user: {}", user);
         Assertions.assertThat(response.getStatusCode()).isEqualTo(200);
 
     }
@@ -84,6 +87,8 @@ public class UserApiSteps {
         Response getOneUsersResponse = UserAPIClient.deleteUser(userId);
         String responseBody = getOneUsersResponse.getBody().asString();
         System.out.println(responseBody);
+        log.info("Sent DELETE request to delete user with ID: {}", userId);
+        log.info("Received response: {}", responseBody);
     }
 
     @And("user should be deleted")
@@ -102,8 +107,7 @@ public class UserApiSteps {
                 .name(name)
                 .build();
         response = UserAPIClient.modifyUser(user);
-        log.info("Response after modify: {}", response.getBody().prettyPrint());
-
+        log.info("Sent PUT request to modify user: {}", user);
     }
 
     @Then("user should be modified to {string}")
@@ -112,6 +116,7 @@ public class UserApiSteps {
         Response getOneUsersResponse = UserAPIClient.getUser(userId);
         String responseBody = getOneUsersResponse.getBody().asString();
         logger.info("Response Body+: {}", responseBody);
+        log.info("Validating user modification. Expected content: {}, Actual Response: {}", content, responseBody);
         Assertions.assertThat(getOneUsersResponse.getBody().asString()).contains(content);
     }
 

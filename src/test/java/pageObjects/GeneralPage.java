@@ -1,5 +1,7 @@
 package pageObjects;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.awaitility.Awaitility;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -13,6 +15,7 @@ import utils.DriverManager;
 import java.time.Duration;
 
 public class GeneralPage extends DriverManager {
+    private static final Logger log = LogManager.getLogger(GeneralPage.class);
 
     public GeneralPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
@@ -23,16 +26,15 @@ public class GeneralPage extends DriverManager {
     @FindBy(xpath = "//span[@class='logged-in']")
     private WebElement welcomeText;
 
-
     public void clickSignInHeader() {
         SignInHeader.click();
     }
-
 
     //TODO how that work
     public void waitForWelcomeTextToBeVisible() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOf(welcomeText));
+        log.info("Error text is visible.");
     }
 
     public String getWelcomeText() {

@@ -18,7 +18,6 @@ public class GeneralPageSteps extends DriverManager{
     private static final Logger log = LogManager.getLogger(GeneralPage.class);
     GeneralPage generalPage = new GeneralPage(driver);
 
-    //TODO change directly to page that is testing
     @Given("user is on the Luma  page")
     public void user_is_on_the_Luma_page() {
         driver.get(getPropertyFromConfigFile("urlsigninmagento"));
@@ -26,10 +25,11 @@ public class GeneralPageSteps extends DriverManager{
 
 
     @Then("user should see a welcome message with my username")
-    public void userShouldSeeAWelcomeMessageWithMyUsername() throws InterruptedException {
-
+    public void userShouldSeeAWelcomeMessageWithMyUsername() {
         generalPage.waitForWelcomeTextToBeVisible();
-        Assertions.assertThat(generalPage.getWelcomeText()).isEqualTo(Messages.WELCOME_TEXT.getMessage());
+        String actualWelcomeText = generalPage.getWelcomeText();
+        log.info("Actual welcome message: {}", actualWelcomeText);
+        Assertions.assertThat(actualWelcomeText).isEqualTo(Messages.WELCOME_TEXT.getMessage());
     }
 }
 

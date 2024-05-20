@@ -17,7 +17,7 @@ import static utils.PropertyUtils.getPropertyFromConfigFile;
 public class CustomerLoginSteps  extends  DriverManager{
 
     CustomerLoginPage customerLoginPage = new CustomerLoginPage(driver);
-    private static final Logger log = LogManager.getLogger(GeneralPage.class);
+    private static final Logger log = LogManager.getLogger(CustomerLoginSteps.class);
 
     @Given("user is on the Luma registration page")
     public void userIsOnTheLumaRegistrationPage()   {
@@ -44,7 +44,9 @@ public class CustomerLoginSteps  extends  DriverManager{
     @Then("user should see a an error message")
     public void userShouldSeeAAnErrorMessage() throws InterruptedException {
         customerLoginPage.waitForErrorTextToBeVisible();
-        Assertions.assertThat(customerLoginPage.getErrorText()).isEqualTo(Messages.FAIL_LOG_IN.getMessage());
+        String actualError = customerLoginPage.getErrorText();
+        log.info("Actual error message: {}", actualError);
+        Assertions.assertThat(actualError).isEqualTo(Messages.FAIL_LOG_IN.getMessage());
     }
 
 }

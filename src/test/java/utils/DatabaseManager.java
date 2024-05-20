@@ -18,7 +18,9 @@ public class DatabaseManager {
                 String password = PropertyUtils.getPropertyFromConfigFile("dbPassword");
                 // Establish the connection
                 connection = DriverManager.getConnection(url, user, password);
+                log.debug("Database connection established successfully.");
             } catch (SQLException e) {
+                log.error("Failed to connect to the database. Error: {}", e.getMessage());
                 throw new RuntimeException("Failed to connect to the database", e);
             }
         }
@@ -30,7 +32,9 @@ public class DatabaseManager {
             try {
                 connection.close();
                 connection = null;
+                log.debug("Database connection closed successfully.");
             } catch (SQLException e) {
+                log.error("Error closing the database connection. Error: {}", e.getMessage());
                 throw new RuntimeException("Error closing the database connection", e);
             }
         }

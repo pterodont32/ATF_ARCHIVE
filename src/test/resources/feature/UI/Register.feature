@@ -23,4 +23,4 @@ Feature: Registering  a new account on The Luma
       | NAME | LAST NAME | EMAIL                 | PASSWORD    | CONFIRM PASSWORD |
       | John | Doe       | pterodont32@gmail.com | Anytown123. | Anyt             |
     And  register button is clicked
-    Then user should see an error message indicating  that password are not the same
+    Then user should see an error message indicating that passwords are not the same

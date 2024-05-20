@@ -1,5 +1,7 @@
 package pageObjects;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,7 +14,7 @@ import java.time.Duration;
 
 public class CustomerLoginPage  extends DriverManager {
 
-
+    private static final Logger log = LogManager.getLogger(CustomerLoginPage.class);
     public CustomerLoginPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
@@ -55,5 +57,6 @@ public class CustomerLoginPage  extends DriverManager {
     public void waitForErrorTextToBeVisible() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOf(errorText));
+        log.info("Error text is visible.");
     }
 }

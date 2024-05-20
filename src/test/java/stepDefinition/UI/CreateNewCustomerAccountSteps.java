@@ -20,7 +20,7 @@ public class CreateNewCustomerAccountSteps extends DriverManager{
 
 
     CreateNewCustomerAccountPage createNewCustomerAccountPage = new CreateNewCustomerAccountPage(driver);
-    private static final Logger log = LogManager.getLogger(GeneralPage.class);
+    private static final Logger log = LogManager.getLogger(CreateNewCustomerAccountSteps.class);
 
     @When("user fill in the registration form with a username that already exists")
     public void userFillInTheRegistrationFormWithAUsernameThatAlreadyExists(DataTable dataTable) {
@@ -31,6 +31,7 @@ public class CreateNewCustomerAccountSteps extends DriverManager{
             String email_address = row.get("EMAIL");
             String password = row.get("PASSWORD");
             String passwordConfirmation = row.get("CONFIRM PASSWORD");
+            log.info("Filling form with: {}, {}, {}, {}", firstname, lastname, email_address, password);
             createNewCustomerAccountPage.fillRegistrationForm(firstname, lastname, email_address, password, passwordConfirmation);
         }
     }
@@ -42,17 +43,24 @@ public class CreateNewCustomerAccountSteps extends DriverManager{
 
     @Then("user should see an error message indicating the username is already taken")
     public void userShouldSeeAnErrorMessageIndicatingTheUsernameIsAlreadyTaken() {
-        Assertions.assertThat(createNewCustomerAccountPage.getEmailIsTakenError()).isEqualTo(Messages.EMAIL_ALREADY_EXISTS.getMessage());
+        String actualError = createNewCustomerAccountPage.getEmailIsTakenError();
+        log.info("Actual error message for username is already taken: {}", actualError);
+        Assertions.assertThat(actualError).isEqualTo(Messages.EMAIL_ALREADY_EXISTS.getMessage());
     }
 
     @Then("user should see an error message indicating the password is too weak")
     public void userShouldSeeAnErrorMessageIndicatingThePasswordIsTooWeak() {
-        Assertions.assertThat(createNewCustomerAccountPage.getPassword_Weak()).isEqualTo(Messages.PASSWORD_WEAK.getMessage());
+        String actualError = createNewCustomerAccountPage.getPassword_Weak();
+        log.info("Actual error message for the too weak password: {}", actualError);
+        Assertions.assertThat(actualError).isEqualTo(Messages.PASSWORD_WEAK.getMessage());
     }
 
-    @Then("user should see an error message indicating  that password are not the same")
-    public void userShouldSeeAnErrorMessageIndicatingThatPasswordAreNotTheSame() {
-        Assertions.assertThat(createNewCustomerAccountPage.getPassword_confirmation_error()).isEqualTo(Messages.PASSWORD_CONFIRMATION_ERROR.getMessage());
+    @Then("user should see an error message indicating that passwords are not the same")
+    public void userShouldSeeAnErrorMessageIndicatingThatPasswordsAreNotTheSame() {
+        String actualError = createNewCustomerAccountPage.getPassword_confirmation_error();
+        log.info("Actual error message for passwords are not the same: {}", actualError);
+        Assertions.assertThat(actualError).isEqualTo(Messages.PASSWORD_CONFIRMATION_ERROR.getMessage());
     }
 }
+
 
