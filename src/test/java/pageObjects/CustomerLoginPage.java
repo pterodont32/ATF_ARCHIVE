@@ -57,6 +57,6 @@ public class CustomerLoginPage  extends DriverManager {
     public void waitForErrorTextToBeVisible() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOf(errorText));
-        log.info("Error text is visible.");
+        log.debug("Error text is visible.");
     }
 }

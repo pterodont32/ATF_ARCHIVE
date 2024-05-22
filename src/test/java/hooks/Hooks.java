@@ -17,23 +17,12 @@ public class Hooks {
     }
 
     @After("@UI")
-    public void tearDown(Scenario scenario) throws InterruptedException {
-        try {
-            if (scenario.isFailed() && DriverManager.getDriver() != null) {
-                log.info("Scenario '{}' failed. Taking screenshot...", scenario.getName());
-                final byte[] screenshot = ((TakesScreenshot) DriverManager.getDriver())
-                        .getScreenshotAs(OutputType.BYTES);
-                scenario.attach(screenshot, "image/png", "screenshot");
-            }
-        } catch (Exception e) {
-            log.error("Failed to capture screenshot for scenario '{}'. Error: {}", scenario.getName(), e.getMessage());
-        } finally { // fainaly se executot tot timp dupa try cath nui  important daca e  succes sau nu
-            DriverManager.quitDriver();
-        }
+    public void tearDown() {
+        DriverManager.quitDriver();
     }
 
     @AfterStep("@UI")
-    public void afterEachStep(Scenario scenario) {
+    public void takeScreenShot(Scenario scenario) {
         if (scenario.isFailed()) {
             log.info("Step failed in scenario '{}'. Taking screenshot...", scenario.getName());
             final byte[] screenshot = ((TakesScreenshot) DriverManager.getDriver())
@@ -52,6 +41,3 @@ public class Hooks {
         DatabaseManager.closeConnection();
     }
 }
-
-
-

@@ -5,6 +5,8 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+import static utils.PropertyUtils.getPropertyFromConfigFile;
+
 public class DatabaseManager {
     private static final Logger log = LogManager.getLogger(DatabaseManager.class);
     private static Connection connection;
@@ -13,9 +15,9 @@ public class DatabaseManager {
         if (connection == null) {
             try {
                 // Set the database connection properties
-                String url = PropertyUtils.getPropertyFromConfigFile("dbUrl");
-                String user = PropertyUtils.getPropertyFromConfigFile("dbUser");
-                String password = PropertyUtils.getPropertyFromConfigFile("dbPassword");
+                String url = getPropertyFromConfigFile("dbUrl");
+                String user = getPropertyFromConfigFile("dbUser");
+                String password = getPropertyFromConfigFile("dbPassword");
                 // Establish the connection
                 connection = DriverManager.getConnection(url, user, password);
                 log.debug("Database connection established successfully.");

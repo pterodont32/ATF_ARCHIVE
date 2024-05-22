@@ -9,13 +9,15 @@ public enum Messages {
     WELCOME_TEXT("Welcome, victor victor!"),
     PASSWORD_WEAK("Weak"),
 
-   //API MESSAGES
+    //API MESSAGES
     USER_IS_NOT_PRESENT("doesn't exist!");
 
     private final String message;
+
     Messages(String message) {
         this.message = message;
     }
+
     public String getMessage() {
         return message;
     }

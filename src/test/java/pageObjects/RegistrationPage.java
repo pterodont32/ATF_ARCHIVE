@@ -6,9 +6,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utils.DriverManager;
 
-public class CreateNewCustomerAccountPage  extends DriverManager {
+public class RegistrationPage extends DriverManager {
 
-    public CreateNewCustomerAccountPage(WebDriver driver) {
+    public RegistrationPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 
@@ -33,10 +33,8 @@ public class CreateNewCustomerAccountPage  extends DriverManager {
     @FindBy(xpath = "/html/body/div[2]/main/div[2]/div[2]/div/div/div")
     private WebElement emailIsTakenError;
 
-
     @FindBy(xpath = "//*[@id=\"password-strength-meter-label\"]")
     private WebElement password_Weak;
-
 
     @FindBy(xpath = "//*[@id=\"password-confirmation-error\"]")
     private WebElement password_confirmation_error;

@@ -1,35 +1,30 @@
 package api.clients;
 
 import api.models.UserRequestDTO;
+import io.cucumber.java.be.I;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+
 import static utils.PropertyUtils.getPropertyFromConfigFile;
 
 public class UserAPIClient {
-//TODO property
-    private static final String BASE_USER_URI = "/user";
+
+    private static final String BASE_URL = getPropertyFromConfigFile("base_uri");
+    private static final String USER = "/user";
 
     public static Response addNewUser(UserRequestDTO userRequestDTO) {
         return RestAssured.given()
                 .contentType(ContentType.JSON)
-                .baseUri(getPropertyFromConfigFile("base_uri") + BASE_USER_URI)
+                .baseUri(BASE_URL + USER)
                 .body(userRequestDTO)
                 .post();
-    }
-
-    public static Response getAllUsers( ) {
-        return RestAssured.given()
-                .contentType(ContentType.JSON)
-                .baseUri(getPropertyFromConfigFile("base_uri") + BASE_USER_URI)
-                .get();
-
     }
 
     public static Response modifyUser(UserRequestDTO userRequestDTO) {
         return RestAssured.given()
                 .contentType(ContentType.JSON)
-                .baseUri(getPropertyFromConfigFile("base_uri") + BASE_USER_URI)
+                .baseUri(BASE_URL + USER)
                 .body(userRequestDTO)
                 .put();
     }
@@ -37,14 +32,14 @@ public class UserAPIClient {
     public static Response getUser(String username) {
         return RestAssured.given()
                 .contentType(ContentType.JSON)
-                .baseUri(getPropertyFromConfigFile("base_uri") + BASE_USER_URI+"/"+username) // Updated path to include specific user
+                .baseUri(BASE_URL + USER + "/" + username)
                 .get();
     }
 
     public static Response deleteUser(String id) {
         return RestAssured.given()
                 .contentType(ContentType.JSON)
-                .baseUri(getPropertyFromConfigFile("base_uri") + BASE_USER_URI+"/"+id) // Updated path to include specific user
+                .baseUri(BASE_URL + USER + "/" + id)
                 .delete();
     }
 }

@@ -6,33 +6,34 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import utils.DatabaseManager;
-import DB.AuthorSqlUtils;
 import utils.ScenarioContext;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 
+import static DB.AuthorSqlUtils.*;
+import static DB.BookSqlUtils.getBooksByAuthor;
 import static org.junit.Assert.*;
 
 public class AuthorSteps {
     private Connection connection;
-    private  static final  ScenarioContext scenarioContext = new ScenarioContext();
+    private final ScenarioContext scenarioContext = new ScenarioContext();
     private static final Logger log = LogManager.getLogger(AuthorSteps.class);
 
     @Given("user is connected to the database")
-    public void i_am_connected_to_the_database() {
+    public void user_is_connected_to_the_database() {
         connection = DatabaseManager.getConnection();
     }
+// Static  variabile metode
 
     @When("user add a new author with name {string} and bio {string}")
-    public void i_add_a_new_author_with_name_and_bio(String name, String bio) {
+    public void add_a_new_author_with_name_and_bio(String name, String bio) {
         try {
-            AuthorSqlUtils.insertAuthor(connection, name, bio);
+            insertAuthor(connection, name, bio);
         } catch (SQLException e) {
             fail("Failed to insert author: " + e.getMessage());
         }
@@ -41,8 +42,7 @@ public class AuthorSteps {
     @Then("the author {string} should be in the Authors table")
     public void the_author_should_be_in_the_authors_table(String name) {
         try {
-            boolean isPresent = AuthorSqlUtils.isAuthorPresent(connection, name);
-            assertTrue(isPresent);
+            assertTrue(isAuthorPresent(connection, name));
         } catch (SQLException e) {
             fail("Failed to verify author: " + e.getMessage());
         }
@@ -51,7 +51,7 @@ public class AuthorSteps {
     @And("added author {string} is deleted")
     public void addedAuthorIsDeleted(String name) {
         try {
-            AuthorSqlUtils.deleteAuthor(connection, name);
+            deleteAuthor(connection, name);
         } catch (SQLException e) {
             fail("Failed to delete author: " + e.getMessage());
         }
@@ -60,7 +60,7 @@ public class AuthorSteps {
     @When("user retrieves all books written by {string}")
     public void user_retrieves_all_books_written_by(String authorName) {
         try {
-            List<String> retrievedBookTitles = BookSqlUtils.getBooksByAuthor(connection, authorName);
+            List<String> retrievedBookTitles = getBooksByAuthor(connection, authorName);
             scenarioContext.setContext("retrievedBookTitles", retrievedBookTitles);
         } catch (SQLException e) {
             fail("Failed to retrieve books: " + e.getMessage());

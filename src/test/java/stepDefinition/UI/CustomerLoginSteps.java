@@ -24,7 +24,7 @@ public class CustomerLoginSteps  extends  DriverManager{
         driver.get(getPropertyFromConfigFile("urlmagentoregister"));
     }
 
-    @And("user enter valid email {string} and password {string}")
+    @And("user enters email {string} and password {string}")
     public void userEnterValidUsernameAndPassword(String email, String password) {
         customerLoginPage.enterEmail(email);
         customerLoginPage.enterPassword(password);
@@ -33,12 +33,6 @@ public class CustomerLoginSteps  extends  DriverManager{
     @And("user clicks the login button")
     public void user_click_the_login_button() {
         customerLoginPage.clickLogInButton();
-    }
-
-    @And("user enter valid email \"([^\"]*)\" and password \"([^\"]*)\"")
-    public void userEnterValidEmailUserAndPasswordUser(String email, String password) {
-        customerLoginPage.enterEmail(email);
-        customerLoginPage.enterPassword(password);
     }
 
     @Then("user should see a an error message")
