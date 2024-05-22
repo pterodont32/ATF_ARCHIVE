@@ -23,9 +23,15 @@ public class GeneralPage extends DriverManager {
     private WebElement SignInHeader;
     @FindBy(xpath = "//span[@class='logged-in']")
     private WebElement welcomeText;
+    @FindBy(xpath = "/html/body/div[2]/header/div[1]/div/ul/li[2]/div/ul/li[3]/a")
+    private WebElement signOut;
+    @FindBy(xpath = "/html/body/div[2]/header/div[1]/div/ul/li[2]/span/button")
+    private WebElement dropdownHeader;
 
-    public void clickSignInHeader() {
-        SignInHeader.click();
+
+    public void signOut() {
+        dropdownHeader.click();
+        signOut.click();
     }
 
     //TODO how that work

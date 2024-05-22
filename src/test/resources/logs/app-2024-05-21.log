@@ -1,0 +1,343 @@
+[INFO ] 2024-05-21 11:30:17.575 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 11:30:17.827 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 11:30:18.975 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 11:30:19.170 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 11:30:20.213 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 11:30:20.376 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 11:30:21.368 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 11:30:21.572 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 11:31:06.899 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 11:31:14.375 [main] GeneralPage - Error text is visible.
+[INFO ] 2024-05-21 11:31:14.431 [main] GeneralPage - Actual welcome message: Welcome, victor victor!
+[INFO ] 2024-05-21 11:31:15.008 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 11:31:16.052 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 11:31:21.750 [main] CustomerLoginSteps - Actual error message: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-05-21 11:31:21.998 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 11:31:22.937 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 11:31:28.169 [main] CustomerLoginSteps - Actual error message: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-05-21 11:31:28.363 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 11:31:29.372 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 11:31:35.036 [main] CustomerLoginSteps - Actual error message: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-05-21 11:31:35.312 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 11:31:36.425 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 11:31:39.539 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, pterodont32@gmail.com, Anytown123.
+[INFO ] 2024-05-21 11:31:42.599 [main] CreateNewCustomerAccountSteps - Actual error message for username is already taken: There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.
+[INFO ] 2024-05-21 11:31:42.862 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 11:31:43.860 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 11:31:47.032 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, pterodont32@gmail.com, Any
+[INFO ] 2024-05-21 11:31:47.737 [main] CreateNewCustomerAccountSteps - Actual error message for the too weak password: Weak
+[INFO ] 2024-05-21 11:31:47.936 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 11:31:48.879 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 11:31:52.654 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, pterodont32@gmail.com, Anytown123.
+[INFO ] 2024-05-21 11:31:53.330 [main] CreateNewCustomerAccountSteps - Actual error message for passwords are not the same: Please enter the same value again.
+[INFO ] 2024-05-21 11:31:53.572 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 13:17:22.511 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 13:17:28.907 [main] GeneralPage - Error text is visible.
+[INFO ] 2024-05-21 13:17:28.925 [main] GeneralPage - Actual welcome message: Welcome, victor victor!
+[INFO ] 2024-05-21 13:17:29.135 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 13:17:29.886 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 13:17:34.411 [main] CustomerLoginSteps - Actual error message: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-05-21 13:17:34.557 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 13:17:35.292 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 13:17:40.479 [main] CustomerLoginSteps - Actual error message: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-05-21 13:17:40.619 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 13:17:41.348 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 13:17:45.566 [main] CustomerLoginSteps - Actual error message: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-05-21 13:17:45.727 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 13:17:46.484 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 13:17:49.896 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 13:20:07.103 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 13:20:13.571 [main] GeneralPage - Error text is visible.
+[INFO ] 2024-05-21 13:20:13.588 [main] GeneralPage - Actual welcome message: Welcome, victor victor!
+[INFO ] 2024-05-21 13:20:13.773 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 13:20:14.534 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 13:20:19.007 [main] CustomerLoginSteps - Actual error message: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-05-21 13:25:38.169 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 13:25:41.740 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, pterodont32@gmail.com, Anytown123.
+[INFO ] 2024-05-21 13:25:42.041 [main] Hooks - Step failed in scenario 'Unsuccessful registration with an registered Email'. Taking screenshot...
+[INFO ] 2024-05-21 13:25:42.129 [main] Hooks - Scenario 'Unsuccessful registration with an registered Email' failed. Taking screenshot...
+[INFO ] 2024-05-21 13:25:42.350 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 13:28:59.316 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 13:32:18.199 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, pterodont32@gmail.com, Anytown123.
+[INFO ] 2024-05-21 13:32:30.498 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 13:32:34.180 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, pterodont32@gmail.com, Anytown123.
+[INFO ] 2024-05-21 13:32:34.484 [main] Hooks - Step failed in scenario 'Unsuccessful registration with an registered Email'. Taking screenshot...
+[INFO ] 2024-05-21 13:32:34.564 [main] Hooks - Scenario 'Unsuccessful registration with an registered Email' failed. Taking screenshot...
+[INFO ] 2024-05-21 13:32:34.800 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 13:33:23.994 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 13:33:58.795 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, pterodont32@gmail.com, Anytown123.
+[INFO ] 2024-05-21 13:33:59.114 [main] Hooks - Step failed in scenario 'Unsuccessful registration with an registered Email'. Taking screenshot...
+[INFO ] 2024-05-21 13:33:59.209 [main] Hooks - Scenario 'Unsuccessful registration with an registered Email' failed. Taking screenshot...
+[INFO ] 2024-05-21 13:33:59.480 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 13:34:14.701 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 13:34:45.487 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 13:37:55.070 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, pterodont32@gmail.com, Anytown123.
+[INFO ] 2024-05-21 13:54:17.146 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 13:54:55.426 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, null, Any
+[INFO ] 2024-05-21 14:04:16.672 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 14:04:26.028 [main] Hooks - Step failed in scenario 'Unsuccessful registration with an registered Email'. Taking screenshot...
+[INFO ] 2024-05-21 14:04:26.316 [main] Hooks - Scenario 'Unsuccessful registration with an registered Email' failed. Taking screenshot...
+[INFO ] 2024-05-21 14:04:28.520 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 14:04:29.684 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 14:04:32.724 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, pterodont32@gmail.com, Any
+[INFO ] 2024-05-21 14:04:33.277 [main] CreateNewCustomerAccountSteps - Actual error message for the too weak password: Weak
+[INFO ] 2024-05-21 14:04:33.514 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 14:04:34.462 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 14:04:37.854 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, pterodont32@gmail.com, Anytown123.
+[INFO ] 2024-05-21 14:04:38.356 [main] CreateNewCustomerAccountSteps - Actual error message for passwords are not the same: Please enter the same value again.
+[INFO ] 2024-05-21 14:04:38.531 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 14:07:44.202 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 14:07:52.989 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, chet.cormier@gmail.com, Any
+[INFO ] 2024-05-21 14:07:53.067 [main] Hooks - Step failed in scenario 'Unsuccessful registration with an registered Email'. Taking screenshot...
+[INFO ] 2024-05-21 14:07:53.361 [main] Hooks - Scenario 'Unsuccessful registration with an registered Email' failed. Taking screenshot...
+[INFO ] 2024-05-21 14:07:54.028 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 14:07:55.105 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 14:07:58.915 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, pterodont32@gmail.com, Any
+[INFO ] 2024-05-21 14:07:59.451 [main] CreateNewCustomerAccountSteps - Actual error message for the too weak password: Weak
+[INFO ] 2024-05-21 14:07:59.693 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 14:08:00.687 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 14:08:03.451 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, pterodont32@gmail.com, Anytown123.
+[INFO ] 2024-05-21 14:08:04.115 [main] CreateNewCustomerAccountSteps - Actual error message for passwords are not the same: Please enter the same value again.
+[INFO ] 2024-05-21 14:08:04.305 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 14:09:07.545 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 14:09:16.607 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, jaquelyn.labadie@gmail.com, Any
+[INFO ] 2024-05-21 14:09:16.662 [main] Hooks - Step failed in scenario 'Unsuccessful registration with an registered Email'. Taking screenshot...
+[INFO ] 2024-05-21 14:09:16.877 [main] Hooks - Scenario 'Unsuccessful registration with an registered Email' failed. Taking screenshot...
+[INFO ] 2024-05-21 14:09:17.395 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 14:09:18.372 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 14:09:22.135 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, pterodont32@gmail.com, Any
+[INFO ] 2024-05-21 14:09:22.830 [main] CreateNewCustomerAccountSteps - Actual error message for the too weak password: Weak
+[INFO ] 2024-05-21 14:09:23.036 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 14:09:23.954 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 14:09:27.208 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, pterodont32@gmail.com, Anytown123.
+[INFO ] 2024-05-21 14:09:27.827 [main] CreateNewCustomerAccountSteps - Actual error message for passwords are not the same: Please enter the same value again.
+[INFO ] 2024-05-21 14:09:27.991 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 14:10:33.098 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 14:10:42.953 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, geralyn.beer@gmail.com, Any
+[INFO ] 2024-05-21 14:10:43.021 [main] Hooks - Step failed in scenario 'Unsuccessful registration with an registered Email'. Taking screenshot...
+[INFO ] 2024-05-21 14:10:43.328 [main] Hooks - Scenario 'Unsuccessful registration with an registered Email' failed. Taking screenshot...
+[INFO ] 2024-05-21 14:10:43.950 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 14:10:45.048 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 14:10:48.391 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, pterodont32@gmail.com, Any
+[INFO ] 2024-05-21 14:10:49.137 [main] CreateNewCustomerAccountSteps - Actual error message for the too weak password: Weak
+[INFO ] 2024-05-21 14:10:49.383 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 14:10:50.287 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 14:10:54.105 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, pterodont32@gmail.com, Anytown123.
+[INFO ] 2024-05-21 14:10:54.677 [main] CreateNewCustomerAccountSteps - Actual error message for passwords are not the same: Please enter the same value again.
+[INFO ] 2024-05-21 14:10:54.921 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 15:17:18.959 [main] UserApiSteps - API base URL is available: http://localhost:8080/user
+[INFO ] 2024-05-21 15:17:19.504 [main] UserApiSteps - Sent POST request to create user: UserRequestDTO(name=vasile, age=22, id=ID321)
+[INFO ] 2024-05-21 15:17:19.507 [main] UserApiSteps - Validating response status code. Expected: 200, Actual: 200
+[INFO ] 2024-05-21 15:17:19.591 [main] UserApiSteps - Validating response field. Field: name, Expected Value: vasile, Actual Response: {"id":"ID321","name":"vasile","age":22}
+[INFO ] 2024-05-21 15:19:53.729 [main] UserApiSteps - API base URL is available: http://localhost:8080/user
+[INFO ] 2024-05-21 15:19:54.091 [main] UserApiSteps - Sent POST request to create user: UserRequestDTO(name=vasile, age=22, id=ID321)
+[INFO ] 2024-05-21 15:19:54.094 [main] UserApiSteps - Validating response status code. Expected: 200, Actual: 200
+[INFO ] 2024-05-21 15:29:08.542 [main] UserApiSteps - Validating response field. Field: name, Expected Value: vasile, Actual Response: {"id":"ID321","name":"vasile","age":22}
+[INFO ] 2024-05-21 15:29:18.754 [main] UserApiSteps - API base URL is available: http://localhost:8080/user
+[INFO ] 2024-05-21 15:29:19.115 [main] UserApiSteps - Sent POST request to create user: UserRequestDTO(name=vasile, age=22, id=ID321)
+[INFO ] 2024-05-21 15:29:19.118 [main] UserApiSteps - Validating response status code. Expected: 200, Actual: 200
+[INFO ] 2024-05-21 15:29:19.201 [main] UserApiSteps - Validating response field. Field: name, Expected Value: vasile, Actual Response: {"id":"ID321","name":"vasile","age":22}
+[INFO ] 2024-05-21 15:29:58.208 [main] UserApiSteps - API base URL is available: http://localhost:8080/user
+[INFO ] 2024-05-21 15:29:58.630 [main] UserApiSteps - Sent POST request to create user: UserRequestDTO(name=vasile, age=22, id=ID321)
+[INFO ] 2024-05-21 15:29:58.634 [main] UserApiSteps - Validating response status code. Expected: 200, Actual: 200
+[INFO ] 2024-05-21 15:29:58.698 [main] UserApiSteps - Validating response field. Field: name, Expected Value: vasile, Actual Response: {"id":"ID321","name":"vasile","age":22}
+[INFO ] 2024-05-21 15:35:18.361 [main] UserApiSteps - Created necessary user: UserRequestDTO(name=Dr. Bernardo Runolfsson, age=49, id=0)
+[INFO ] 2024-05-21 15:35:18.416 [main] UserApiSteps - Sent DELETE request to delete user with ID: 0
+[INFO ] 2024-05-21 15:35:18.416 [main] UserApiSteps - Received response: Operation failed! User with id '0' doesn't exist!
+[INFO ] 2024-05-21 15:35:18.420 [main] UserApiSteps - Validating response status code. Expected: 200, Actual: 400
+[INFO ] 2024-05-21 15:35:18.532 [main] UserApiSteps - Created necessary user: UserRequestDTO(name=Lucio Fahey, age=39, id=0)
+[INFO ] 2024-05-21 15:35:18.555 [main] UserApiSteps - Sent PUT request to modify user: UserRequestDTO(name=john, age=33, id=0)
+[INFO ] 2024-05-21 15:35:18.572 [main] UserApiSteps - Response Body+: Operation failed! User with id '0' doesn't exist!
+[INFO ] 2024-05-21 15:35:18.573 [main] UserApiSteps - Validating user modification. Expected content: john, Actual Response: Operation failed! User with id '0' doesn't exist!
+[INFO ] 2024-05-21 15:37:07.891 [main] UserApiSteps - Created necessary user: UserRequestDTO(name=Leonore Morissette, age=50, id=577-91-3733)
+[INFO ] 2024-05-21 15:37:07.981 [main] UserApiSteps - Sent DELETE request to delete user with ID: 577-91-3733
+[INFO ] 2024-05-21 15:37:07.982 [main] UserApiSteps - Received response: Successful operation!
+[INFO ] 2024-05-21 15:37:07.989 [main] UserApiSteps - Validating response status code. Expected: 200, Actual: 200
+[INFO ] 2024-05-21 15:37:08.093 [main] UserApiSteps - Created necessary user: UserRequestDTO(name=Virginia Kirlin, age=20, id=260-90-4397)
+[INFO ] 2024-05-21 15:37:08.120 [main] UserApiSteps - Sent PUT request to modify user: UserRequestDTO(name=john, age=33, id=260-90-4397)
+[INFO ] 2024-05-21 15:37:08.140 [main] UserApiSteps - Response Body+: {"id":"260-90-4397","name":"john","age":33}
+[INFO ] 2024-05-21 15:37:08.140 [main] UserApiSteps - Validating user modification. Expected content: john, Actual Response: {"id":"260-90-4397","name":"john","age":33}
+[INFO ] 2024-05-21 15:47:12.238 [main] UserApiSteps - Created necessary user: UserRequestDTO(name=Dinorah Gleichner Jr., age=47, id=798-19-6597)
+[INFO ] 2024-05-21 15:47:12.295 [main] UserApiSteps - Sent DELETE request to delete user with ID: 798-19-6597
+[INFO ] 2024-05-21 15:47:12.296 [main] UserApiSteps - Received response: Successful operation!
+[INFO ] 2024-05-21 15:47:12.299 [main] UserApiSteps - Validating response status code. Expected: 200, Actual: 200
+[INFO ] 2024-05-21 15:47:12.366 [main] UserApiSteps - Created necessary user: UserRequestDTO(name=Eryn Kreiger, age=25, id=421-19-5443)
+[INFO ] 2024-05-21 15:48:12.091 [main] UserApiSteps - Created necessary user: UserRequestDTO(name=Frederic Runolfsdottir, age=41, id=427-23-9939)
+[INFO ] 2024-05-21 15:48:12.159 [main] UserApiSteps - Sent DELETE request to delete user with ID: 427-23-9939
+[INFO ] 2024-05-21 15:48:12.160 [main] UserApiSteps - Received response: Successful operation!
+[INFO ] 2024-05-21 15:48:12.163 [main] UserApiSteps - Validating response status code. Expected: 200, Actual: 200
+[INFO ] 2024-05-21 15:48:12.276 [main] UserApiSteps - Created necessary user: UserRequestDTO(name=Hyun Little, age=56, id=218-90-1682)
+[INFO ] 2024-05-21 15:48:27.459 [main] UserApiSteps - Created necessary user: UserRequestDTO(name=Adrian Runte, age=55, id=872-90-9841)
+[INFO ] 2024-05-21 15:48:27.523 [main] UserApiSteps - Sent DELETE request to delete user with ID: 872-90-9841
+[INFO ] 2024-05-21 15:48:27.523 [main] UserApiSteps - Received response: Successful operation!
+[INFO ] 2024-05-21 15:48:27.526 [main] UserApiSteps - Validating response status code. Expected: 200, Actual: 200
+[INFO ] 2024-05-21 15:48:27.618 [main] UserApiSteps - Created necessary user: UserRequestDTO(name=Dr. Thanh Brown, age=58, id=489-79-4605)
+[INFO ] 2024-05-21 15:48:27.641 [main] UserApiSteps - Sent PUT request to modify user: UserRequestDTO(name=john, age=22, id=489-79-4605)
+[INFO ] 2024-05-21 15:48:27.661 [main] UserApiSteps - Response Body+: {"id":"489-79-4605","name":"john","age":22}
+[INFO ] 2024-05-21 15:48:27.661 [main] UserApiSteps - Validating user modification. Expected content: john, Actual Response: {"id":"489-79-4605","name":"john","age":22}
+[INFO ] 2024-05-21 16:41:15.273 [main] Hooks - Step failed in scenario 'Logging in with valid credentials'. Taking screenshot...
+[INFO ] 2024-05-21 16:41:16.956 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 16:41:17.178 [main] Hooks - Scenario 'Logging in with valid credentials' failed. Taking screenshot...
+[INFO ] 2024-05-21 16:41:17.515 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 16:41:17.538 [main] Hooks - Step failed in scenario 'Logging in with invalid credential'. Taking screenshot...
+[INFO ] 2024-05-21 16:41:18.689 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 16:41:18.909 [main] Hooks - Scenario 'Logging in with invalid credential' failed. Taking screenshot...
+[INFO ] 2024-05-21 16:41:19.296 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 16:41:19.315 [main] Hooks - Step failed in scenario 'Logging in with invalid credential'. Taking screenshot...
+[INFO ] 2024-05-21 16:41:20.284 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 16:41:20.429 [main] Hooks - Scenario 'Logging in with invalid credential' failed. Taking screenshot...
+[INFO ] 2024-05-21 16:41:20.903 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 16:41:20.922 [main] Hooks - Step failed in scenario 'Logging in with invalid credential'. Taking screenshot...
+[INFO ] 2024-05-21 16:41:21.844 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 16:41:22.078 [main] Hooks - Scenario 'Logging in with invalid credential' failed. Taking screenshot...
+[INFO ] 2024-05-21 16:41:22.366 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 16:41:22.424 [main] Hooks - Step failed in scenario 'Unsuccessful registration with an registered Email'. Taking screenshot...
+[INFO ] 2024-05-21 16:41:23.401 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 16:41:23.611 [main] Hooks - Scenario 'Unsuccessful registration with an registered Email' failed. Taking screenshot...
+[INFO ] 2024-05-21 16:41:23.986 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 16:41:23.996 [main] Hooks - Step failed in scenario 'Check that user with weak password can be registered'. Taking screenshot...
+[INFO ] 2024-05-21 16:41:25.023 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 16:41:25.140 [main] Hooks - Scenario 'Check that user with weak password can be registered' failed. Taking screenshot...
+[INFO ] 2024-05-21 16:44:07.534 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 16:44:15.054 [main] GeneralPage - Error text is visible.
+[INFO ] 2024-05-21 16:44:15.116 [main] GeneralPage - Actual welcome message: Welcome, victor victor!
+[INFO ] 2024-05-21 16:44:15.660 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 16:44:16.765 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 16:44:21.735 [main] CustomerLoginSteps - Actual error message: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-05-21 16:44:21.954 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 16:44:22.980 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 16:44:28.098 [main] CustomerLoginSteps - Actual error message: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-05-21 16:44:28.376 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 16:44:29.358 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 16:44:34.127 [main] CustomerLoginSteps - Actual error message: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-05-21 16:44:34.389 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 16:44:35.356 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 16:44:43.887 [main] RegistrationPageSteps - Filling form with: John, Doe, barrie.lueilwitz@hotmail.com, Any
+[INFO ] 2024-05-21 16:44:43.922 [main] Hooks - Step failed in scenario 'Unsuccessful registration with an registered Email'. Taking screenshot...
+[INFO ] 2024-05-21 16:44:44.189 [main] Hooks - Scenario 'Unsuccessful registration with an registered Email' failed. Taking screenshot...
+[INFO ] 2024-05-21 16:44:44.725 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 16:44:45.702 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 16:44:48.712 [main] RegistrationPageSteps - Filling form with: John, Doe, pterodont32@gmail.com, Any
+[INFO ] 2024-05-21 16:44:49.384 [main] RegistrationPageSteps - Actual error message for the too weak password: Weak
+[INFO ] 2024-05-21 16:44:49.613 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 16:44:50.672 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 16:44:53.743 [main] RegistrationPageSteps - Filling form with: John, Doe, pterodont32@gmail.com, Anytown123.
+[INFO ] 2024-05-21 16:44:54.328 [main] RegistrationPageSteps - Actual error message for passwords are not the same: Please enter the same value again.
+[INFO ] 2024-05-21 16:44:54.548 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 16:55:29.649 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 16:56:24.009 [main] GeneralPage - Error text is visible.
+[INFO ] 2024-05-21 16:56:24.070 [main] GeneralPage - Actual welcome message: Welcome, victor victor!
+[ERROR] 2024-05-21 16:57:54.312 [main] DriverManager - Failed to close WebDriver. Error: java.io.IOException: Output closed
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: driver.version: ChromiumDriver
+org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: driver.version: ChromiumDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:298) ~[selenium-http-4.20.0.jar:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.close(JdkHttpClient.java:317) ~[selenium-http-4.20.0.jar:?]
+	at org.openqa.selenium.devtools.Connection.close(Connection.java:224) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.devtools.DevTools.close(DevTools.java:60) ~[selenium-remote-driver-4.20.0.jar:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:426) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:432) ~[selenium-chromium-driver-4.20.0.jar:?]
+	at utils.DriverManager.quitDriver(DriverManager.java:33) ~[test-classes/:?]
+	at hooks.Hooks.tearDown(Hooks.java:28) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.15.0.jar:7.15.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.15.0.jar:7.15.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.15.0.jar:7.15.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.15.0.jar:7.15.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.2.3.jar:7.2.3]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.2.3.jar:7.2.3]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.2.3.jar:7.2.3]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.2.3.jar:7.2.3]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.2.3.jar:7.2.3]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:101) ~[cucumber-core-7.2.3.jar:7.2.3]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.2.3.jar:7.2.3]
+	at io.cucumber.junit.PickleRunners$WithStepDescriptions.lambda$run$1(PickleRunners.java:109) ~[cucumber-junit-7.2.3.jar:7.2.3]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151) ~[cucumber-core-7.2.3.jar:7.2.3]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.2.3.jar:7.2.3]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151) ~[cucumber-core-7.2.3.jar:7.2.3]
+	at io.cucumber.junit.PickleRunners$WithStepDescriptions.run(PickleRunners.java:106) ~[cucumber-junit-7.2.3.jar:7.2.3]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144) ~[cucumber-junit-7.2.3.jar:7.2.3]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28) ~[cucumber-junit-7.2.3.jar:7.2.3]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137) ~[cucumber-junit-7.2.3.jar:7.2.3]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196) ~[cucumber-junit-7.2.3.jar:7.2.3]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89) ~[cucumber-junit-7.2.3.jar:7.2.3]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266) ~[cucumber-junit-7.2.3.jar:7.2.3]
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281) ~[cucumber-junit-7.2.3.jar:7.2.3]
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233) ~[cucumber-junit-7.2.3.jar:7.2.3]
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248) ~[cucumber-junit-7.2.3.jar:7.2.3]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.13.1.jar:4.13.1]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) ~[junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:?]
+Caused by: java.io.IOException: Output closed
+	at jdk.internal.net.http.websocket.MessageEncoder.encodeClose(MessageEncoder.java:330) ~[java.net.http:?]
+	at jdk.internal.net.http.websocket.TransportImpl$SendTask$1.onClose(TransportImpl.java:422) ~[java.net.http:?]
+	at jdk.internal.net.http.websocket.TransportImpl$SendTask$1.onClose(TransportImpl.java:367) ~[java.net.http:?]
+	at jdk.internal.net.http.websocket.MessageQueue.peek(MessageQueue.java:266) ~[java.net.http:?]
+	at jdk.internal.net.http.websocket.TransportImpl$SendTask.run(TransportImpl.java:555) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:324) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233) ~[java.net.http:?]
+	at jdk.internal.net.http.websocket.TransportImpl.sendClose(TransportImpl.java:271) ~[java.net.http:?]
+	at jdk.internal.net.http.websocket.WebSocketImpl.sendClose0(WebSocketImpl.java:345) ~[java.net.http:?]
+	at jdk.internal.net.http.websocket.WebSocketImpl.sendClose(WebSocketImpl.java:315) ~[java.net.http:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.lambda$send$2(JdkHttpClient.java:277) ~[selenium-http-4.20.0.jar:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:288) ~[selenium-http-4.20.0.jar:?]
+	... 56 more
+[INFO ] 2024-05-21 16:58:56.759 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 17:00:11.756 [main] GeneralPage - Error text is visible.
+[INFO ] 2024-05-21 17:00:11.848 [main] GeneralPage - Actual welcome message: 
+[INFO ] 2024-05-21 17:00:13.817 [main] Hooks - Step failed in scenario 'Logging in with valid credentials'. Taking screenshot...
+[INFO ] 2024-05-21 17:00:30.630 [main] Hooks - Step failed in scenario 'Logging in with invalid credential'. Taking screenshot...
+[INFO ] 2024-05-21 17:00:53.770 [main] Hooks - Step failed in scenario 'Logging in with invalid credential'. Taking screenshot...
+[INFO ] 2024-05-21 17:06:19.734 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 17:06:26.348 [main] GeneralPage - Error text is visible.
+[INFO ] 2024-05-21 17:06:26.398 [main] GeneralPage - Actual welcome message: Welcome, victor victor!
+[INFO ] 2024-05-21 17:06:26.991 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 17:06:28.267 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 17:06:34.456 [main] CustomerLoginSteps - Actual error message: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-05-21 17:06:34.731 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 17:06:35.718 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 17:06:41.106 [main] CustomerLoginSteps - Actual error message: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-05-21 17:06:41.355 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 17:06:42.421 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 17:06:47.507 [main] CustomerLoginSteps - Actual error message: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-05-21 17:06:47.785 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 17:06:48.803 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 17:06:57.387 [main] RegistrationPageSteps - Filling form with: John, Doe, lissette.bogisich@hotmail.com, Any
+[INFO ] 2024-05-21 17:06:57.433 [main] Hooks - Step failed in scenario 'Unsuccessful registration with an registered Email'. Taking screenshot...
+[INFO ] 2024-05-21 17:06:57.963 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 17:06:58.972 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 17:07:02.718 [main] RegistrationPageSteps - Filling form with: John, Doe, pterodont32@gmail.com, Any
+[INFO ] 2024-05-21 17:07:03.448 [main] RegistrationPageSteps - Actual error message for the too weak password: Weak
+[INFO ] 2024-05-21 17:07:03.672 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-21 17:07:04.605 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-21 17:07:09.803 [main] RegistrationPageSteps - Filling form with: John, Doe, pterodont32@gmail.com, Anytown123.
+[INFO ] 2024-05-21 17:07:10.632 [main] RegistrationPageSteps - Actual error message for passwords are not the same: Please enter the same value again.
+[INFO ] 2024-05-21 17:07:10.837 [main] DriverManager - WebDriver closed  successfully.

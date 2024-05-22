@@ -8,17 +8,21 @@ import io.cucumber.java.en.When;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import pageObjects.GeneralPage;
 import pageObjects.RegistrationPage;
 import utils.DriverManager;
 import utils.ScenarioContext;
+
 import java.util.List;
 import java.util.Map;
+
 import static org.assertj.core.api.Assertions.assertThat;
 import static utils.Messages.*;
 
 public class RegistrationPageSteps extends DriverManager {
 
     RegistrationPage registrationPage = new RegistrationPage(driver);
+    GeneralPage generalPage = new GeneralPage(driver);
     private static final Logger log = LogManager.getLogger(RegistrationPageSteps.class);
     private static final Faker faker = new Faker();
     private final ScenarioContext scenarioContext;
@@ -37,9 +41,10 @@ public class RegistrationPageSteps extends DriverManager {
         scenarioContext.setContext("email_address", email_address);
         registrationPage.fillRegistrationForm(firstname, lastname, email_address, password, password);
         registrationPage.clickCreateAccountButton();
+        generalPage.signOut();
     }
 
-//TODO to check
+    //TODO to check
     @When("user fills the registration form")
     public void userFillInTheRegistrationFormWithAUsernameThatAlreadyExists(DataTable dataTable) {
         List<Map<String, String>> shippingInfo = dataTable.asMaps(String.class, String.class);
@@ -68,6 +73,7 @@ public class RegistrationPageSteps extends DriverManager {
 
     @Then("user should see an error message indicating the username is already taken")
     public void userShouldSeeAnErrorMessageIndicatingTheUsernameIsAlreadyTaken() {
+        registrationPage.waitForEmailIsTakenErrorToBeVisible();
         String actualError = registrationPage.getEmailIsTakenError();
         log.info("Actual error message for username is already taken: {}", actualError);
         assertThat(actualError).isEqualTo(EMAIL_ALREADY_EXISTS.getMessage());

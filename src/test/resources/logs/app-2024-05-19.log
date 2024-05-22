@@ -1,0 +1,20 @@
+[INFO ] 2024-05-19 13:50:12.308 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-19 13:50:25.944 [main] Hooks - Step failed in scenario 'Logging in with valid credentials'. Taking screenshot...
+[INFO ] 2024-05-19 13:50:26.061 [main] Hooks - Scenario 'Logging in with valid credentials' failed. Taking screenshot...
+[INFO ] 2024-05-19 13:50:26.429 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-19 13:50:27.237 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-19 13:50:33.084 [main] CustomerLoginPage - Error text is visible.
+[INFO ] 2024-05-19 13:50:33.104 [main] CustomerLoginSteps - Actual error message: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-05-19 13:50:33.358 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-19 13:50:34.114 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-19 13:50:36.816 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, pterodont32@gmail.com, Anytown123.
+[INFO ] 2024-05-19 13:50:39.425 [main] CreateNewCustomerAccountSteps - Actual error message for username is already taken: There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.
+[INFO ] 2024-05-19 13:50:39.806 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-19 13:50:40.547 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-19 13:50:43.328 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, pterodont32@gmail.com, Any
+[INFO ] 2024-05-19 13:50:43.710 [main] CreateNewCustomerAccountSteps - Actual error message for the too weak password: Weak
+[INFO ] 2024-05-19 13:50:43.912 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-19 13:50:44.631 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-19 13:50:47.671 [main] CreateNewCustomerAccountSteps - Filling form with: John, Doe, pterodont32@gmail.com, Anytown123.
+[INFO ] 2024-05-19 13:50:48.066 [main] CreateNewCustomerAccountSteps - Actual error message for passwords are not the same: Please enter the same value again.
+[INFO ] 2024-05-19 13:50:48.263 [main] DriverManager - WebDriver closed  successfully.

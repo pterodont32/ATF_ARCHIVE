@@ -4,7 +4,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.DriverManager;
+
+import java.time.Duration;
 
 public class RegistrationPage extends DriverManager {
 
@@ -48,6 +52,12 @@ public class RegistrationPage extends DriverManager {
         emailAddressField.sendKeys(email_address);
         passwordField.sendKeys(password);
         passwordConfirmationField.sendKeys(passwordConfirmation);
+    }
+
+
+    public void waitForEmailIsTakenErrorToBeVisible() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOf(emailIsTakenError));
     }
 
     public String getEmailIsTakenError() {

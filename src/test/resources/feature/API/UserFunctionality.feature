@@ -1,11 +1,11 @@
 @API
 Feature: User functionality
 
-#  Scenario:  Check that user can be created by api request
-#    Given the API base URL is available "http://localhost:8080/user"
-#    When user sends a POST request to create a user "vasile" with age 22 and id "ID321"
-#    Then the response status code should be 200
-#    And the "name" response field has value "vasile"
+  Scenario:  Check that user can be created by api request
+    Given the API base URL is available "http://localhost:8080/user"
+    When user sends a POST request to create a user "vasile" with age 22 and id "ID321"
+    Then the response status code should be 200
+    And the "name" response field has value "vasile"
 
   Scenario: Check that a created user can be deleted by api request
     Given the necessary user is created

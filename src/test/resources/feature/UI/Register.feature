@@ -8,8 +8,8 @@ Feature: Registering  a new account on The Luma
     And user creates a new account
     And user is on the Luma registration page
     When user fills the registration form
-      | NAME | LAST NAME | EMAIL | PASSWORD | CONFIRM PASSWORD |
-      | John | Doe       |       | Any      | Anyt             |
+      | NAME | LAST NAME | EMAIL | PASSWORD    | CONFIRM PASSWORD |
+      | John | Doe       |       | Anytown123. | Anytown123.      |
     And user clicks register button
     Then user should see an error message indicating the username is already taken
 

@@ -1,0 +1,57 @@
+[INFO ] 2024-05-22 11:48:20.979 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-22 11:48:31.068 [main] RegistrationPageSteps - Filling form with: John, Doe, bettie.hahn@hotmail.com, Any
+[INFO ] 2024-05-22 11:48:31.126 [main] Hooks - Step failed in scenario 'Unsuccessful registration with an registered Email'. Taking screenshot...
+[INFO ] 2024-05-22 11:48:32.615 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-22 12:00:05.654 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-22 12:00:17.268 [main] RegistrationPageSteps - Filling form with: John, Doe, columbus.parisian@hotmail.com, Any
+[INFO ] 2024-05-22 12:00:18.074 [main] Hooks - Step failed in scenario 'Unsuccessful registration with an registered Email'. Taking screenshot...
+[INFO ] 2024-05-22 12:00:18.442 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-22 12:05:39.936 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-22 12:05:50.971 [main] RegistrationPageSteps - Filling form with: John, Doe, stefani.kerluke@yahoo.com, Any
+[INFO ] 2024-05-22 12:06:01.939 [main] Hooks - Step failed in scenario 'Unsuccessful registration with an registered Email'. Taking screenshot...
+[INFO ] 2024-05-22 12:06:02.389 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-22 12:06:40.941 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-22 12:06:55.469 [main] RegistrationPageSteps - Filling form with: John, Doe, caterina.macejkovic@hotmail.com, Any
+[INFO ] 2024-05-22 12:07:06.704 [main] Hooks - Step failed in scenario 'Unsuccessful registration with an registered Email'. Taking screenshot...
+[INFO ] 2024-05-22 12:07:07.176 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-22 12:07:59.864 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-22 12:08:14.275 [main] RegistrationPageSteps - Filling form with: John, Doe, wilton.medhurst@hotmail.com, Anytown123.
+[INFO ] 2024-05-22 12:08:17.355 [main] RegistrationPageSteps - Actual error message for username is already taken: There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.
+[INFO ] 2024-05-22 12:08:17.698 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-22 13:11:44.334 [main] AuthorSteps - Verified retrieved book titles: [Harry Potter and the Philosopher's Stone, Harry Potter and the Chamber of Secrets, Harry Potter and the Prisoner of Azkaban, Harry Potter and the Goblet of Fire]
+[INFO ] 2024-05-22 13:13:03.712 [main] UserApiSteps - API base URL is available: http://localhost:8080/user
+[INFO ] 2024-05-22 13:13:04.351 [main] UserApiSteps - Sent POST request to create user: UserRequestDTO(name=vasile, age=22, id=ID321)
+[INFO ] 2024-05-22 13:13:04.417 [main] UserApiSteps - Validating response status code. Expected: 200, Actual: 200
+[INFO ] 2024-05-22 13:13:05.683 [main] UserApiSteps - Created necessary user: Successful operation!
+[INFO ] 2024-05-22 13:13:05.717 [main] UserApiSteps - Sent DELETE request to delete user with ID: 282-11-8817
+[INFO ] 2024-05-22 13:13:05.720 [main] UserApiSteps - Received response: Successful operation!
+[INFO ] 2024-05-22 13:13:05.722 [main] UserApiSteps - Validating response status code. Expected: 200, Actual: 200
+[INFO ] 2024-05-22 13:13:05.893 [main] UserApiSteps - Created necessary user: Successful operation!
+[INFO ] 2024-05-22 13:13:05.989 [main] UserApiSteps - Sent PUT request to modify user: Successful operation!
+[INFO ] 2024-05-22 13:13:06.025 [main] UserApiSteps - Validating user modification. Expected content: john, Actual Response: {"id":"404-28-9240","name":"john","age":22}
+[INFO ] 2024-05-22 13:13:07.018 [main] AuthorSteps - Verified retrieved book titles: [Harry Potter and the Philosopher's Stone, Harry Potter and the Chamber of Secrets, Harry Potter and the Prisoner of Azkaban, Harry Potter and the Goblet of Fire]
+[INFO ] 2024-05-22 13:13:08.715 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-22 13:13:15.780 [main] GeneralPage - Error text is visible.
+[INFO ] 2024-05-22 13:13:15.820 [main] GeneralPage - Actual welcome message: Welcome, victor victor!
+[INFO ] 2024-05-22 13:13:16.037 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-22 13:13:16.999 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-22 13:13:22.284 [main] CustomerLoginSteps - Actual error message: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-05-22 13:13:22.542 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-22 13:13:23.506 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-22 13:13:29.468 [main] CustomerLoginSteps - Actual error message: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-05-22 13:13:29.703 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-22 13:13:30.652 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-22 13:13:36.407 [main] CustomerLoginSteps - Actual error message: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-05-22 13:13:36.653 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-22 13:13:37.599 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-22 13:13:47.926 [main] RegistrationPageSteps - Filling form with: John, Doe, spencer.hudson@hotmail.com, Anytown123.
+[INFO ] 2024-05-22 13:13:50.600 [main] RegistrationPageSteps - Actual error message for username is already taken: There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.
+[INFO ] 2024-05-22 13:13:50.850 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-22 13:13:51.784 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-22 13:13:54.881 [main] RegistrationPageSteps - Filling form with: John, Doe, pterodont32@gmail.com, Any
+[INFO ] 2024-05-22 13:13:55.976 [main] RegistrationPageSteps - Actual error message for the too weak password: Weak
+[INFO ] 2024-05-22 13:13:56.170 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-22 13:13:57.060 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-22 13:13:59.902 [main] RegistrationPageSteps - Filling form with: John, Doe, pterodont32@gmail.com, Anytown123.
+[INFO ] 2024-05-22 13:14:01.013 [main] RegistrationPageSteps - Actual error message for passwords are not the same: Please enter the same value again.
+[INFO ] 2024-05-22 13:14:01.251 [main] DriverManager - WebDriver closed  successfully.
