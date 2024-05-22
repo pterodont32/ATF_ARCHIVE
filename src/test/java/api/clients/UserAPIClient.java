@@ -1,7 +1,6 @@
 package api.clients;
 
 import api.models.UserRequestDTO;
-import io.cucumber.java.be.I;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;

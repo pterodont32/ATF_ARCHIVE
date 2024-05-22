@@ -1,15 +1,12 @@
 package stepDefinition.UI;
 
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.assertj.core.api.Assertions;
 import pageObjects.GeneralPage;
 import utils.DriverManager;
-import utils.Messages;
 
 import static utils.Messages.WELCOME_TEXT;
 import static utils.PropertyUtils.getPropertyFromConfigFile;

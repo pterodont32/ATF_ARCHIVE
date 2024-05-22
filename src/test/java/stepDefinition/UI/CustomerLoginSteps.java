@@ -6,9 +6,7 @@ import io.cucumber.java.en.Then;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.assertj.core.api.Assertions;
-import org.openqa.selenium.WebDriver;
 import pageObjects.CustomerLoginPage;
-import pageObjects.GeneralPage;
 import utils.DriverManager;
 import utils.Messages;
 
@@ -36,7 +34,7 @@ public class CustomerLoginSteps  extends  DriverManager{
     }
 
     @Then("user should see a an error message")
-    public void userShouldSeeAAnErrorMessage() throws InterruptedException {
+    public void userShouldSeeAAnErrorMessage() {
         customerLoginPage.waitForErrorTextToBeVisible();
         String actualError = customerLoginPage.getErrorText();
         log.info("Actual error message: {}", actualError);
