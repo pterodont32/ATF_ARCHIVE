@@ -126,3 +126,9 @@
 [INFO ] 2024-05-23 09:51:38.746 [main] RegistrationPageSteps - Filling form with: John, Doe, pterodont32@gmail.com, Anytown123.
 [INFO ] 2024-05-23 09:51:39.068 [main] RegistrationPageSteps - Actual error message for passwords are not the same: Please enter the same value again.
 [INFO ] 2024-05-23 09:51:39.226 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-23 10:28:17.388 [main] AuthorSteps - Verified retrieved book titles: [Harry Potter and the Philosopher's Stone, Harry Potter and the Chamber of Secrets, Harry Potter and the Prisoner of Azkaban, Harry Potter and the Goblet of Fire]
+[INFO ] 2024-05-23 10:28:18.437 [main] DriverManager - ChromeDriver initialized successfully.
+[INFO ] 2024-05-23 10:28:24.942 [main] GeneralPage - Error text is visible.
+[INFO ] 2024-05-23 10:28:24.958 [main] GeneralPage - Actual welcome message: Welcome, victor victor!
+[INFO ] 2024-05-23 10:28:25.181 [main] DriverManager - WebDriver closed  successfully.
+[INFO ] 2024-05-23 10:28:25.959 [main] DriverManager - ChromeDriver initialized successfully.
