@@ -1,14 +1,15 @@
 package utils;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
 import static utils.PropertyUtils.getPropertyFromConfigFile;
 
 public class DriverManager {
     public static WebDriver driver;
     private static final Logger log = LogManager.getLogger(DriverManager.class);
-
 
     public static WebDriver getDriver() {
         if (driver == null) {

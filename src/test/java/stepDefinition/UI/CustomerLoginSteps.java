@@ -8,7 +8,6 @@ import org.apache.logging.log4j.Logger;
 import org.assertj.core.api.Assertions;
 import org.openqa.selenium.WebDriver;
 import pageObjects.CustomerLoginPage;
-import pageObjects.GeneralPage;
 import utils.DriverManager;
 import utils.Messages;
 
@@ -23,7 +22,7 @@ public class CustomerLoginSteps {
 
 
     @Given("user is on the Luma registration page")
-    public void userIsOnTheLumaRegistrationPage()   {
+    public void userIsOnTheLumaRegistrationPage() {
         driver.get(getPropertyFromConfigFile("urlmagentoregister"));
     }
 
