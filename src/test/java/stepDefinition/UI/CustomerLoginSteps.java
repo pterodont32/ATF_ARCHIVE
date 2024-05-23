@@ -6,16 +6,21 @@ import io.cucumber.java.en.Then;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.assertj.core.api.Assertions;
+import org.openqa.selenium.WebDriver;
 import pageObjects.CustomerLoginPage;
+import pageObjects.GeneralPage;
 import utils.DriverManager;
 import utils.Messages;
 
 import static utils.PropertyUtils.getPropertyFromConfigFile;
 
-public class CustomerLoginSteps  extends  DriverManager{
+public class CustomerLoginSteps {
 
-    CustomerLoginPage customerLoginPage = new CustomerLoginPage(driver);
     private static final Logger log = LogManager.getLogger(CustomerLoginSteps.class);
+
+    WebDriver driver = DriverManager.getDriver();
+    CustomerLoginPage customerLoginPage = new CustomerLoginPage(driver);
+
 
     @Given("user is on the Luma registration page")
     public void userIsOnTheLumaRegistrationPage()   {

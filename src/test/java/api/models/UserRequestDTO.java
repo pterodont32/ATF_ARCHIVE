@@ -4,12 +4,11 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;
 import lombok.Data;
 
-
-@Builder // @Builder: Activează un builder pattern, facilitând instanțierea obiectelor în mod flexibil și clar.
-@Data //@Data: Este o adnotare care combină mai multe adnotări Lombok, generând metode getter și setter pentru toate proprietățile, plus toString, equals, hashCode, etc.
+@Builder
+@Data
 
 public class UserRequestDTO {
-//  ce este  getter setter si la ce se folosesc
+
     @JsonProperty("name")
     private String name;
 

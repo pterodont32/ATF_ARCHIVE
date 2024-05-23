@@ -8,14 +8,16 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import utils.DriverManager;
 
 import java.time.Duration;
 
-public class GeneralPage extends DriverManager {
+public class GeneralPage  {
+
     private static final Logger log = LogManager.getLogger(GeneralPage.class);
+    private final WebDriver driver;
 
     public GeneralPage(WebDriver driver) {
+        this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
@@ -28,13 +30,11 @@ public class GeneralPage extends DriverManager {
     @FindBy(xpath = "/html/body/div[2]/header/div[1]/div/ul/li[2]/span/button")
     private WebElement dropdownHeader;
 
-
     public void signOut() {
         dropdownHeader.click();
         signOut.click();
     }
 
-    //TODO how that work
     public void waitForWelcomeTextToBeVisible() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOf(welcomeText));

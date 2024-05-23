@@ -8,14 +8,15 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import utils.DriverManager;
 
 import java.time.Duration;
 
-public class CustomerLoginPage  extends DriverManager {
-
+public class CustomerLoginPage   {
+    private final WebDriver driver;
     private static final Logger log = LogManager.getLogger(CustomerLoginPage.class);
+
     public CustomerLoginPage(WebDriver driver) {
+        this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 

@@ -8,6 +8,7 @@ import io.cucumber.java.en.When;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
 import pageObjects.GeneralPage;
 import pageObjects.RegistrationPage;
 import utils.DriverManager;
@@ -19,8 +20,8 @@ import java.util.Map;
 import static org.assertj.core.api.Assertions.assertThat;
 import static utils.Messages.*;
 
-public class RegistrationPageSteps extends DriverManager {
-
+public class RegistrationPageSteps {
+    WebDriver driver = DriverManager.getDriver();
     RegistrationPage registrationPage = new RegistrationPage(driver);
     GeneralPage generalPage = new GeneralPage(driver);
     private static final Logger log = LogManager.getLogger(RegistrationPageSteps.class);

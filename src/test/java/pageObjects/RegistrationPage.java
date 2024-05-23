@@ -6,13 +6,13 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import utils.DriverManager;
-
 import java.time.Duration;
 
-public class RegistrationPage extends DriverManager {
+public class RegistrationPage  {
 
+    private final WebDriver driver;
     public RegistrationPage(WebDriver driver) {
+        this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
@@ -53,7 +53,6 @@ public class RegistrationPage extends DriverManager {
         passwordField.sendKeys(password);
         passwordConfirmationField.sendKeys(passwordConfirmation);
     }
-
 
     public void waitForEmailIsTakenErrorToBeVisible() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));

@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
         features = "C:\\Users\\Vlungu\\IdeaProjects\\ATF\\ATF_ARCHIVE\\src\\test\\resources\\feature",
         glue = {"hooks", "stepDefinition"},
         stepNotifications = true,
-        tags = " @UI or @API or @DB",
+        tags = "@UI",
         plugin = {
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 )
