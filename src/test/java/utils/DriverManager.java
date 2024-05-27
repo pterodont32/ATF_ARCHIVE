@@ -30,7 +30,6 @@ public class DriverManager {
     public static void quitDriver() {
         if (driver != null) {
             try {
-//                driver.close();
                 driver.quit();
                 driver = null;
                 log.info("WebDriver closed  successfully.");

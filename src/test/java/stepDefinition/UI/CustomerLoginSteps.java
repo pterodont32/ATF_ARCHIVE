@@ -20,7 +20,6 @@ public class CustomerLoginSteps {
     WebDriver driver = DriverManager.getDriver();
     CustomerLoginPage customerLoginPage = new CustomerLoginPage(driver);
 
-
     @Given("user is on the Luma registration page")
     public void userIsOnTheLumaRegistrationPage() {
         driver.get(getPropertyFromConfigFile("urlmagentoregister"));

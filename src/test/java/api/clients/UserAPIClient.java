@@ -4,6 +4,7 @@ import api.models.UserRequestDTO;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+
 import static utils.PropertyUtils.getPropertyFromConfigFile;
 
 public class UserAPIClient {

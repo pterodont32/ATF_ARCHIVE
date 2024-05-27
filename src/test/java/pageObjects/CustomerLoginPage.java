@@ -47,10 +47,6 @@ public class CustomerLoginPage   {
         logInButton.click();
     }
 
-    public void clickCreateAccountLink() {
-        createAccountLink.click();
-    }
-
     public String getErrorText() {
         return errorText.getText();
     }

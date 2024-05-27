@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class AuthorSqlUtils {
-//TODO study
+
     public static void insertAuthor(Connection connection, String name, String bio) throws SQLException {
         String sql = "INSERT INTO Authors (Name, Bio) VALUES (?, ?)";
         try (PreparedStatement pstmt = connection.prepareStatement(sql)) {

@@ -27,7 +27,6 @@ public class AuthorSteps {
     public void user_is_connected_to_the_database() {
         connection = DatabaseManager.getConnection();
     }
-// Static  variabile metode
 
     @When("user add a new author with name {string} and bio {string}")
     public void add_a_new_author_with_name_and_bio(String name, String bio) {

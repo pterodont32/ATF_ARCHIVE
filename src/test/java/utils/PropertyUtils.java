@@ -11,7 +11,7 @@ public class PropertyUtils {
 
     public static String getPropertyFromConfigFile(String key) {
         ConfigFileReader configFileReader = new ConfigFileReader();
-        Properties properties = configFileReader.initProperties();
+        Properties properties = configFileReader.initProperties();  // încărca proprietățile din fișierul de configurare
         String value = properties.getProperty(key);
         if (value != null) {
             log.debug("Property '{}' retrieved successfully with value: '{}'", key, value);

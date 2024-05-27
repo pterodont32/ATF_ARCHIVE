@@ -183,7 +183,6 @@
                     <skip>false</skip>
                     <systemPropertyVariables>
                         <extent.reporter.spark.start>true</extent.reporter.spark.start>
-                        <extent.reporter.spark.out>test-output/SparkReport/Spark.html</extent.reporter.spark.out>
                     </systemPropertyVariables>
                     <argLine>
                         --add-opens=java.base/java.lang=ALL-UNNAMED

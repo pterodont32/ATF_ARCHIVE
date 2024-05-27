@@ -32,12 +32,13 @@ public class RegistrationPageSteps {
         this.scenarioContext = new ScenarioContext(); // Ensure it is initialized
     }
 
-    //TODO   de adaugat log out
+
     @And("user creates a new account")
     public void createAccount() {
         String firstname = faker.name().firstName();
         String lastname = faker.name().lastName();
         String email_address = faker.internet().emailAddress();
+
         String password = "fF@" + RandomStringUtils.randomNumeric(6);
         scenarioContext.setContext("email_address", email_address);
         registrationPage.fillRegistrationForm(firstname, lastname, email_address, password, password);
@@ -47,7 +48,7 @@ public class RegistrationPageSteps {
 
     //TODO to check
     @When("user fills the registration form")
-    public void userFillInTheRegistrationFormWithAUsernameThatAlreadyExists(DataTable dataTable) {
+    public void userFillInTheRegistrationForm(DataTable dataTable) {
         List<Map<String, String>> shippingInfo = dataTable.asMaps(String.class, String.class);
         String email_address;
         for (Map<String, String> row : shippingInfo) {

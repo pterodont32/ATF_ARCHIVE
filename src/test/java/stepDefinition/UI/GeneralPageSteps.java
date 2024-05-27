@@ -14,11 +14,9 @@ import static utils.PropertyUtils.getPropertyFromConfigFile;
 
 public class GeneralPageSteps {
 
-
     private static final Logger log = LogManager.getLogger(GeneralPage.class);
     WebDriver driver = DriverManager.getDriver();
     GeneralPage generalPage = new GeneralPage(driver);
-
 
     @Given("user is on the Luma page")
     public void user_is_on_the_Luma_page() {

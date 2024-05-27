@@ -14,11 +14,10 @@ public class DatabaseManager {
     public static Connection getConnection() {
         if (connection == null) {
             try {
-                // Set the database connection properties
                 String url = getPropertyFromConfigFile("dbUrl");
                 String user = getPropertyFromConfigFile("dbUser");
                 String password = getPropertyFromConfigFile("dbPassword");
-                // Establish the connection
+
                 connection = DriverManager.getConnection(url, user, password);
                 log.debug("Database connection established successfully.");
             } catch (SQLException e) {

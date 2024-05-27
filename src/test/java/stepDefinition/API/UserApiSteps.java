@@ -59,6 +59,7 @@ public class UserApiSteps {
         String name = faker.name().fullName();
         int age = faker.number().numberBetween(18, 65);
         String id = faker.idNumber().valid();
+
         UserRequestDTO user = UserRequestDTO.builder().age(age).id(id).name(name).build();
         response = addNewUser(user);
         scenarioContext.setContext("userId", id);
@@ -67,8 +68,6 @@ public class UserApiSteps {
 
     }
 
-
-    //TODO Scenario context enum for id
     @When("user sends a DELETE request with required data id")
     public void userSendAnDELETERequestWithRequiredData() {
         String userId = scenarioContext.getContext("userId", String.class);
