@@ -14,12 +14,8 @@ public class ScenarioContext {
         context.put(key, value);
     }
 
-    // clazz folosit pentru a fi sure ca obiectul retras este de tipul expectat
     public <T> T getContext(String key, Class<T> clazz) {
         return clazz.cast(context.get(key));
     }
 
-    public void removeContext(String key) {
-        context.remove(key);
-    }
 }

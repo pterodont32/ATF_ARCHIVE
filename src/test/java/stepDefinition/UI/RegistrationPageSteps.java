@@ -46,9 +46,9 @@ public class RegistrationPageSteps {
         generalPage.signOut();
     }
 
-    //TODO to check
     @When("user fills the registration form")
     public void userFillInTheRegistrationForm(DataTable dataTable) {
+        // extragem datele din data map in o lista de mape
         List<Map<String, String>> shippingInfo = dataTable.asMaps(String.class, String.class);
         String email_address;
         for (Map<String, String> row : shippingInfo) {

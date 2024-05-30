@@ -22,7 +22,7 @@ public class GeneralPage  {
     }
 
     @FindBy(xpath = "/html/body/div[2]/header/div[1]/div/ul/li[2]/a")
-    private WebElement SignInHeader;
+    private WebElement signInHeader;
     @FindBy(xpath = "//span[@class='logged-in']")
     private WebElement welcomeText;
     @FindBy(xpath = "/html/body/div[2]/header/div[1]/div/ul/li[2]/div/ul/li[3]/a")

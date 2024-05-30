@@ -26,7 +26,6 @@ public class DriverManager {
         return driver;
     }
 
-
     public static void quitDriver() {
         if (driver != null) {
             try {
@@ -40,5 +39,3 @@ public class DriverManager {
         }
     }
 }
-
-

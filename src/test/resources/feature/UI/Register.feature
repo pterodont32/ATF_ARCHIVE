@@ -1,5 +1,5 @@
 @UI
-Feature: Registering  a new account on The Luma
+Feature:  Unsuccessful registering a the Luma page
 
   Background:
     Given user is on the Luma registration page
